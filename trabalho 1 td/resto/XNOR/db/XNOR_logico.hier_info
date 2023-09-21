@@ -1,0 +1,16 @@
+|XNOR_logico
+in1[0] => saidaXNOR.IN0
+in1[1] => saidaXNOR.IN0
+in1[2] => saidaXNOR.IN0
+in1[3] => saidaXNOR.IN0
+in2[0] => saidaXNOR.IN1
+in2[1] => saidaXNOR.IN1
+in2[2] => saidaXNOR.IN1
+in2[3] => saidaXNOR.IN1
+over <= <GND>
+saidaXNOR[0] <= saidaXNOR.DB_MAX_OUTPUT_PORT_TYPE
+saidaXNOR[1] <= saidaXNOR.DB_MAX_OUTPUT_PORT_TYPE
+saidaXNOR[2] <= saidaXNOR.DB_MAX_OUTPUT_PORT_TYPE
+saidaXNOR[3] <= saidaXNOR.DB_MAX_OUTPUT_PORT_TYPE
+
+

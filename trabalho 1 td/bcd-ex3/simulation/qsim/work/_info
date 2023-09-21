@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\bcd-ex3\simulation\qsim
+vbcd_ex3
+Z1 !s100 mkXGOHk[ON>bUOanN;IeO2
+Z2 IQf;Tc=dC0fF6eEK_?<lW[3
+Z3 V4f8Wll7L:nT0e_@IL0W8V0
+Z4 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\bcd-ex3\simulation\qsim
+Z5 w1679937216
+Z6 8bcd_ex3.vo
+Z7 Fbcd_ex3.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|bcd_ex3.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1679937217.103000
+Z12 !s107 bcd_ex3.vo|
+!s101 -O0
+vbcd_ex3_vlg_check_tst
+!i10b 1
+Z13 !s100 :eCTKgSkFW]3f92>iLTZ]1
+Z14 Im0oX:n?aL7f>Q=798QPgM3
+Z15 VCFF>cBkX9UIl;cIEe`Do23
+R4
+Z16 w1679937215
+Z17 8bcd_ex3.vt
+Z18 Fbcd_ex3.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1679937217.215000
+Z20 !s107 bcd_ex3.vt|
+Z21 !s90 -work|work|bcd_ex3.vt|
+!s101 -O0
+R10
+vbcd_ex3_vlg_sample_tst
+!i10b 1
+Z22 !s100 ;TF4Tg2[<z]Q1gi?ijTj?0
+Z23 I61aZJ:i2E?ER4e28o^U611
+Z24 V1YnT@4<mUKl0kCZgzjF983
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vbcd_ex3_vlg_vec_tst
+!i10b 1
+!s100 lBfhRc=P>m@Gd^l8mIAFS0
+IZ>8P>o:95Cg4=35VaUR8N0
+Z25 V?fWEGgaRc1eb[SelRedmX1
+R4
+R16
+R17
+R18
+Z26 L0 232
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\exercicios e exemplos aula TD\exemplo12\simulation\qsim
+vexemplo12
+Z1 IC;ROz;dOe>5lmFJom<[F73
+Z2 VhGJhQZ`@c4d8L1GQ>ImAj3
+Z3 dC:\Users\bruna\OneDrive\Área de Trabalho\Técnicas Digitais\exercicios e exemplos aula 5 e 6  TD\exemplo12\simulation\qsim
+Z4 w1679005659
+Z5 8exemplo12.vo
+Z6 Fexemplo12.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|exemplo12.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 _?ej=g6dUBPiCi7o^<X=l2
+!s85 0
+Z11 !s108 1679005660.454000
+Z12 !s107 exemplo12.vo|
+!s101 -O0
+vexemplo12_vlg_check_tst
+!i10b 1
+!s100 gN]1jiG1a=bPU4jCT8SI53
+IId8UPYoC7U1YIBT:NX]G?0
+Z13 V>5m^PIiV5lBhzEBb3Dd872
+R3
+Z14 w1679005658
+Z15 8exemplo12.vt
+Z16 Fexemplo12.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1679005660.604000
+Z18 !s107 exemplo12.vt|
+Z19 !s90 -work|work|exemplo12.vt|
+!s101 -O0
+R9
+vexemplo12_vlg_sample_tst
+!i10b 1
+!s100 SA>9S110m4IVieLMkETg[2
+I_5W?7kUXgI__30ZLNmN7^2
+V?A_l`ZV=a<L42?:dIIIP[1
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+vexemplo12_vlg_vec_tst
+!i10b 1
+!s100 ;6gUfYXgZU`]N=B2Z`Ga[3
+IO`e2j_MR63=ZAOkbF67ZA3
+Z20 V`:;Vji8S]H=]]P3B`1?KK2
+R3
+R14
+R15
+R16
+L0 154
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9

@@ -1,0 +1,26 @@
+# do somador.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador_vlg_sample_tst
+# -- Compiling module somador_vlg_check_tst
+# -- Compiling module somador_vlg_vec_tst
+# 
+# Top level modules:
+# 	somador_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.somador_vlg_vec_tst 
+# Loading work.somador_vlg_vec_tst
+# Loading work.somador
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading work.somador_vlg_sample_tst
+# Loading work.somador_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : somador.vt(230)
+#    Time: 1 us  Iteration: 0  Instance: /somador_vlg_vec_tst/tb_out

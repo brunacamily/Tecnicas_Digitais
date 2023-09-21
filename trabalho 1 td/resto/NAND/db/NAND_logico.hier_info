@@ -1,0 +1,16 @@
+|NAND_logico
+in1[0] => saidaNAND.IN0
+in1[1] => saidaNAND.IN0
+in1[2] => saidaNAND.IN0
+in1[3] => saidaNAND.IN0
+in2[0] => saidaNAND.IN1
+in2[1] => saidaNAND.IN1
+in2[2] => saidaNAND.IN1
+in2[3] => saidaNAND.IN1
+over <= <GND>
+saidaNAND[0] <= saidaNAND.DB_MAX_OUTPUT_PORT_TYPE
+saidaNAND[1] <= saidaNAND.DB_MAX_OUTPUT_PORT_TYPE
+saidaNAND[2] <= saidaNAND.DB_MAX_OUTPUT_PORT_TYPE
+saidaNAND[3] <= saidaNAND.DB_MAX_OUTPUT_PORT_TYPE
+
+

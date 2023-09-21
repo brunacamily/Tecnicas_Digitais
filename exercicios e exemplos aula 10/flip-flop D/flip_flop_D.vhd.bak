@@ -1,0 +1,32 @@
+--        flip-flop-D
+
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+entity flip_flop_D is 
+port(
+	entrada: in std_logic;
+	clock: in std_logic;
+	saida: out std_logic;
+	saida_neg: out std_logic
+);
+end flip_flop_D;
+
+architecture arch_flip_flop_D of flip_flop_D is 
+signal q_fio: std_logic;
+begin 
+
+peocess_1: PROCESS(clock, entrada)
+begin
+	if (clock'EVENT and clock='1') and entrada='1' THEN
+		q_fio<=entrada;
+		elsif  (clock'EVENT and clock='1') and entrada='0' THEN
+			q_fio<=entrada;
+			else
+				q_fio<=q_fio;
+	end if;
+END PROCESS;
+
+saida<=q_fio;
+saida_neg<= not saida;
+
+end arch_flip_flop_D;

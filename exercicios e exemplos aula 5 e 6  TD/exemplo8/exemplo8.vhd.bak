@@ -1,0 +1,18 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+ENTITY exemplo8 IS
+	PORT (	
+	a: in std_logic(1 downto 0);
+	b: in std_logic(1 downto 0);
+	c: in std_logic(1 downto 0);
+	d: in std_logic(1 downto 0);
+	y: out std_logic(1 downto 0)
+	);
+END exemplo8;
+
+architecture arq_exemplo8 of exemplo8 is
+signal sel1: bit ;
+signal sel2: bit ;
+begin
+ 	y <= ( (not a(0) and (not a(2) and a) or  (not b(0) and b(1) and b) or (c(0) and (not c(1) and c)) or (d(0) and d(1) and d)  ;
+end arq_exemplo8; 

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\Técnicas Digitais\exercicios e exemplos aula 10\ex18_contador sincrono 3bits ff_jk\simulation\qsim
+vff_jk_3bits
+Z1 I6Z=z<5Ka@8c?86h]MmOE?1
+Z2 V<gClmcLl4OQU_0Ac>jz?00
+Z3 dC:\Users\bruna\OneDrive\Área de Trabalho\Técnicas Digitais\exercicios e exemplos aula 10\ex18_contador sincrono 3bits ff_jk\simulation\qsim
+Z4 w1682799365
+Z5 8ff_jk_3bits.vo
+Z6 Fff_jk_3bits.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ff_jk_3bits.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 F5z?EFPV<@Ka7`PXd=:2a0
+!s85 0
+Z11 !s108 1682799366.757000
+Z12 !s107 ff_jk_3bits.vo|
+!s101 -O0
+vff_jk_3bits_vlg_check_tst
+!i10b 1
+!s100 dLg@KoThe7zOHCJT>5Zm11
+IHTMY3<P_c;@;ZBDOCc5342
+Z13 Vh33:B;37dcDc0=Blj=@><2
+R3
+Z14 w1682799364
+Z15 8ff_jk_3bits.vt
+Z16 Fff_jk_3bits.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z17 !s108 1682799366.866000
+Z18 !s107 ff_jk_3bits.vt|
+Z19 !s90 -work|work|ff_jk_3bits.vt|
+!s101 -O0
+R9
+vff_jk_3bits_vlg_sample_tst
+!i10b 1
+!s100 mQ9l>:HRMWCE]I19cnOnJ0
+I2d>>?TDGoEWElXVObe^zR3
+VSP=R0gaeE@?i8>Ylc1oJX2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+vff_jk_3bits_vlg_vec_tst
+!i10b 1
+!s100 J2YJhIFCeGnR>425:>Q7O1
+IV0aEdL:<ZFiA>^K_@iW2<0
+Z20 VzJYn2P8hUSmT8Bia4?aA63
+R3
+R14
+R15
+R16
+L0 249
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9

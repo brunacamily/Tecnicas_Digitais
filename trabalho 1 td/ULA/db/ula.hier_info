@@ -1,0 +1,1018 @@
+|ula
+a[0] => shifterESQ:siftEa.in1[0]
+a[0] => shifterDIR:DIV2a.in01[0]
+a[0] => somador:soma.entA[0]
+a[0] => subtrator:sub.entA[0]
+a[0] => bcd_ex3:ex3_01.ent[0]
+a[0] => OUlogico:OU.ent1[0]
+a[0] => Elogico:Elogic.ent1[0]
+a[0] => xor4BITS:XORlogic.in1[0]
+a[0] => negacao:nagac01.ent[0]
+a[0] => NAND_logico:NANDlogic.in1[0]
+a[0] => NOR_logico:NORlogic.in1[0]
+a[0] => XNOR_logico:XNORlogic.in1[0]
+a[1] => shifterESQ:siftEa.in1[1]
+a[1] => shifterDIR:DIV2a.in01[1]
+a[1] => somador:soma.entA[1]
+a[1] => subtrator:sub.entA[1]
+a[1] => bcd_ex3:ex3_01.ent[1]
+a[1] => OUlogico:OU.ent1[1]
+a[1] => Elogico:Elogic.ent1[1]
+a[1] => xor4BITS:XORlogic.in1[1]
+a[1] => negacao:nagac01.ent[1]
+a[1] => NAND_logico:NANDlogic.in1[1]
+a[1] => NOR_logico:NORlogic.in1[1]
+a[1] => XNOR_logico:XNORlogic.in1[1]
+a[2] => shifterESQ:siftEa.in1[2]
+a[2] => shifterDIR:DIV2a.in01[2]
+a[2] => somador:soma.entA[2]
+a[2] => subtrator:sub.entA[2]
+a[2] => bcd_ex3:ex3_01.ent[2]
+a[2] => OUlogico:OU.ent1[2]
+a[2] => Elogico:Elogic.ent1[2]
+a[2] => xor4BITS:XORlogic.in1[2]
+a[2] => negacao:nagac01.ent[2]
+a[2] => NAND_logico:NANDlogic.in1[2]
+a[2] => NOR_logico:NORlogic.in1[2]
+a[2] => XNOR_logico:XNORlogic.in1[2]
+a[3] => shifterESQ:siftEa.in1[3]
+a[3] => shifterDIR:DIV2a.in01[3]
+a[3] => somador:soma.entA[3]
+a[3] => subtrator:sub.entA[3]
+a[3] => bcd_ex3:ex3_01.ent[3]
+a[3] => OUlogico:OU.ent1[3]
+a[3] => Elogico:Elogic.ent1[3]
+a[3] => xor4BITS:XORlogic.in1[3]
+a[3] => negacao:nagac01.ent[3]
+a[3] => NAND_logico:NANDlogic.in1[3]
+a[3] => NOR_logico:NORlogic.in1[3]
+a[3] => XNOR_logico:XNORlogic.in1[3]
+b[0] => shifterESQ:siftEb.in1[0]
+b[0] => shifterDIR:DIV2b.in01[0]
+b[0] => somador:soma.entB[0]
+b[0] => subtrator:sub.entB[0]
+b[0] => bcd_ex3:ex3_02.ent[0]
+b[0] => OUlogico:OU.ent2[0]
+b[0] => Elogico:Elogic.ent2[0]
+b[0] => xor4BITS:XORlogic.in2[0]
+b[0] => negacao:nagac02.ent[0]
+b[0] => NAND_logico:NANDlogic.in2[0]
+b[0] => NOR_logico:NORlogic.in2[0]
+b[0] => XNOR_logico:XNORlogic.in2[0]
+b[1] => shifterESQ:siftEb.in1[1]
+b[1] => shifterDIR:DIV2b.in01[1]
+b[1] => somador:soma.entB[1]
+b[1] => subtrator:sub.entB[1]
+b[1] => bcd_ex3:ex3_02.ent[1]
+b[1] => OUlogico:OU.ent2[1]
+b[1] => Elogico:Elogic.ent2[1]
+b[1] => xor4BITS:XORlogic.in2[1]
+b[1] => negacao:nagac02.ent[1]
+b[1] => NAND_logico:NANDlogic.in2[1]
+b[1] => NOR_logico:NORlogic.in2[1]
+b[1] => XNOR_logico:XNORlogic.in2[1]
+b[2] => shifterESQ:siftEb.in1[2]
+b[2] => shifterDIR:DIV2b.in01[2]
+b[2] => somador:soma.entB[2]
+b[2] => subtrator:sub.entB[2]
+b[2] => bcd_ex3:ex3_02.ent[2]
+b[2] => OUlogico:OU.ent2[2]
+b[2] => Elogico:Elogic.ent2[2]
+b[2] => xor4BITS:XORlogic.in2[2]
+b[2] => negacao:nagac02.ent[2]
+b[2] => NAND_logico:NANDlogic.in2[2]
+b[2] => NOR_logico:NORlogic.in2[2]
+b[2] => XNOR_logico:XNORlogic.in2[2]
+b[3] => shifterESQ:siftEb.in1[3]
+b[3] => shifterDIR:DIV2b.in01[3]
+b[3] => somador:soma.entB[3]
+b[3] => subtrator:sub.entB[3]
+b[3] => bcd_ex3:ex3_02.ent[3]
+b[3] => OUlogico:OU.ent2[3]
+b[3] => Elogico:Elogic.ent2[3]
+b[3] => xor4BITS:XORlogic.in2[3]
+b[3] => negacao:nagac02.ent[3]
+b[3] => NAND_logico:NANDlogic.in2[3]
+b[3] => NOR_logico:NORlogic.in2[3]
+b[3] => XNOR_logico:XNORlogic.in2[3]
+sinalMUX[0] => shifterESQ:siftEb.indesl
+sinalMUX[0] => shifterDIR:DIV2b.sinalDES
+sinalMUX[0] => muxPRINC:MUX.sinal[0]
+sinalMUX[0] => selet_OVERFLOW:selOVER.sinal[0]
+sinalMUX[1] => shifterESQ:siftEa.indesl
+sinalMUX[1] => muxPRINC:MUX.sinal[1]
+sinalMUX[1] => selet_OVERFLOW:selOVER.sinal[1]
+sinalMUX[2] => shifterDIR:DIV2a.sinalDES
+sinalMUX[2] => muxPRINC:MUX.sinal[2]
+sinalMUX[2] => selet_OVERFLOW:selOVER.sinal[2]
+sinalMUX[3] => muxPRINC:MUX.sinal[3]
+sinalMUX[3] => selet_OVERFLOW:selOVER.sinal[3]
+v <= selet_OVERFLOW:selOVER.saidaOVER
+z <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+n <= muxPRINC:MUX.saidamux[3]
+seg7[0] <= decod_bin_7seg:decod_7seg.saida7SEG[0]
+seg7[1] <= decod_bin_7seg:decod_7seg.saida7SEG[1]
+seg7[2] <= decod_bin_7seg:decod_7seg.saida7SEG[2]
+seg7[3] <= decod_bin_7seg:decod_7seg.saida7SEG[3]
+seg7[4] <= decod_bin_7seg:decod_7seg.saida7SEG[4]
+seg7[5] <= decod_bin_7seg:decod_7seg.saida7SEG[5]
+seg7[6] <= decod_bin_7seg:decod_7seg.saida7SEG[6]
+seg7[7] <= decod_bin_7seg:decod_7seg.saida7SEG[7]
+seg7[8] <= decod_bin_7seg:decod_7seg.saida7SEG[8]
+seg7[9] <= decod_bin_7seg:decod_7seg.saida7SEG[9]
+seg7[10] <= decod_bin_7seg:decod_7seg.saida7SEG[10]
+seg7[11] <= decod_bin_7seg:decod_7seg.saida7SEG[11]
+seg7[12] <= decod_bin_7seg:decod_7seg.saida7SEG[12]
+seg7[13] <= decod_bin_7seg:decod_7seg.saida7SEG[13]
+
+
+|ula|shifterESQ:siftEa
+in1[0] => mux2x1:mux1.entrada
+in1[0] => mux02_2x1:mux2.entrada02
+in1[0] => Equal0.IN1
+in1[0] => Equal1.IN3
+in1[0] => Equal2.IN0
+in1[0] => Equal3.IN3
+in1[0] => Equal4.IN3
+in1[0] => Equal5.IN3
+in1[0] => Equal6.IN2
+in1[0] => Equal7.IN3
+in1[1] => mux02_2x1:mux2.entrada01
+in1[1] => mux02_2x1:mux3.entrada02
+in1[1] => Equal0.IN0
+in1[1] => Equal1.IN0
+in1[1] => Equal2.IN3
+in1[1] => Equal3.IN2
+in1[1] => Equal4.IN2
+in1[1] => Equal5.IN2
+in1[1] => Equal6.IN3
+in1[1] => Equal7.IN2
+in1[2] => mux02_2x1:mux3.entrada01
+in1[2] => mux02_2x1:mux4.entrada02
+in1[2] => Equal0.IN3
+in1[2] => Equal1.IN2
+in1[2] => Equal2.IN2
+in1[2] => Equal3.IN1
+in1[2] => Equal4.IN1
+in1[2] => Equal5.IN1
+in1[2] => Equal6.IN1
+in1[2] => Equal7.IN1
+in1[3] => mux02_2x1:mux4.entrada01
+in1[3] => Equal0.IN2
+in1[3] => Equal1.IN1
+in1[3] => Equal2.IN1
+in1[3] => Equal3.IN0
+in1[3] => Equal4.IN0
+in1[3] => Equal5.IN0
+in1[3] => Equal6.IN0
+in1[3] => Equal7.IN0
+indesl => over.IN1
+indesl => over.DATAA
+indesl => mux2x1:mux1.desloca
+indesl => mux02_2x1:mux2.desloca
+indesl => mux02_2x1:mux3.desloca
+indesl => mux02_2x1:mux4.desloca
+over <= over.DB_MAX_OUTPUT_PORT_TYPE
+outS[0] <= mux2x1:mux1.saida
+outS[1] <= mux02_2x1:mux2.saida
+outS[2] <= mux02_2x1:mux3.saida
+outS[3] <= mux02_2x1:mux4.saida
+
+
+|ula|shifterESQ:siftEa|mux2x1:mux1
+entrada => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN2
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterESQ:siftEa|mux02_2x1:mux2
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterESQ:siftEa|mux02_2x1:mux3
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterESQ:siftEa|mux02_2x1:mux4
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterESQ:siftEb
+in1[0] => mux2x1:mux1.entrada
+in1[0] => mux02_2x1:mux2.entrada02
+in1[0] => Equal0.IN1
+in1[0] => Equal1.IN3
+in1[0] => Equal2.IN0
+in1[0] => Equal3.IN3
+in1[0] => Equal4.IN3
+in1[0] => Equal5.IN3
+in1[0] => Equal6.IN2
+in1[0] => Equal7.IN3
+in1[1] => mux02_2x1:mux2.entrada01
+in1[1] => mux02_2x1:mux3.entrada02
+in1[1] => Equal0.IN0
+in1[1] => Equal1.IN0
+in1[1] => Equal2.IN3
+in1[1] => Equal3.IN2
+in1[1] => Equal4.IN2
+in1[1] => Equal5.IN2
+in1[1] => Equal6.IN3
+in1[1] => Equal7.IN2
+in1[2] => mux02_2x1:mux3.entrada01
+in1[2] => mux02_2x1:mux4.entrada02
+in1[2] => Equal0.IN3
+in1[2] => Equal1.IN2
+in1[2] => Equal2.IN2
+in1[2] => Equal3.IN1
+in1[2] => Equal4.IN1
+in1[2] => Equal5.IN1
+in1[2] => Equal6.IN1
+in1[2] => Equal7.IN1
+in1[3] => mux02_2x1:mux4.entrada01
+in1[3] => Equal0.IN2
+in1[3] => Equal1.IN1
+in1[3] => Equal2.IN1
+in1[3] => Equal3.IN0
+in1[3] => Equal4.IN0
+in1[3] => Equal5.IN0
+in1[3] => Equal6.IN0
+in1[3] => Equal7.IN0
+indesl => over.IN1
+indesl => over.DATAA
+indesl => mux2x1:mux1.desloca
+indesl => mux02_2x1:mux2.desloca
+indesl => mux02_2x1:mux3.desloca
+indesl => mux02_2x1:mux4.desloca
+over <= over.DB_MAX_OUTPUT_PORT_TYPE
+outS[0] <= mux2x1:mux1.saida
+outS[1] <= mux02_2x1:mux2.saida
+outS[2] <= mux02_2x1:mux3.saida
+outS[3] <= mux02_2x1:mux4.saida
+
+
+|ula|shifterESQ:siftEb|mux2x1:mux1
+entrada => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN2
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterESQ:siftEb|mux02_2x1:mux2
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterESQ:siftEb|mux02_2x1:mux3
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterESQ:siftEb|mux02_2x1:mux4
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterDIR:DIV2a
+in01[0] => mux02_2x1:mux4.entrada01
+in01[0] => Equal0.IN1
+in01[0] => Equal1.IN2
+in01[0] => Equal2.IN2
+in01[0] => Equal3.IN3
+in01[1] => mux02_2x1:mux3.entrada01
+in01[1] => mux02_2x1:mux4.entrada02
+in01[1] => Equal0.IN3
+in01[1] => Equal1.IN1
+in01[1] => Equal2.IN3
+in01[1] => Equal3.IN2
+in01[2] => mux02_2x1:mux2.entrada01
+in01[2] => mux02_2x1:mux3.entrada02
+in01[2] => Equal0.IN2
+in01[2] => Equal1.IN3
+in01[2] => Equal2.IN1
+in01[2] => Equal3.IN1
+in01[3] => mux2x1:mux1.entrada
+in01[3] => mux02_2x1:mux2.entrada02
+in01[3] => Equal0.IN0
+in01[3] => Equal1.IN0
+in01[3] => Equal2.IN0
+in01[3] => Equal3.IN0
+sinalDES => over.IN1
+sinalDES => over.DATAA
+sinalDES => over.IN1
+sinalDES => over.IN1
+sinalDES => over.IN1
+sinalDES => mux2x1:mux1.desloca
+sinalDES => mux02_2x1:mux2.desloca
+sinalDES => mux02_2x1:mux3.desloca
+sinalDES => mux02_2x1:mux4.desloca
+over <= over.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= mux02_2x1:mux4.saida
+s[1] <= mux02_2x1:mux3.saida
+s[2] <= mux02_2x1:mux2.saida
+s[3] <= mux2x1:mux1.saida
+
+
+|ula|shifterDIR:DIV2a|mux2x1:mux1
+entrada => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN2
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterDIR:DIV2a|mux02_2x1:mux2
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterDIR:DIV2a|mux02_2x1:mux3
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterDIR:DIV2a|mux02_2x1:mux4
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterDIR:DIV2b
+in01[0] => mux02_2x1:mux4.entrada01
+in01[0] => Equal0.IN1
+in01[0] => Equal1.IN2
+in01[0] => Equal2.IN2
+in01[0] => Equal3.IN3
+in01[1] => mux02_2x1:mux3.entrada01
+in01[1] => mux02_2x1:mux4.entrada02
+in01[1] => Equal0.IN3
+in01[1] => Equal1.IN1
+in01[1] => Equal2.IN3
+in01[1] => Equal3.IN2
+in01[2] => mux02_2x1:mux2.entrada01
+in01[2] => mux02_2x1:mux3.entrada02
+in01[2] => Equal0.IN2
+in01[2] => Equal1.IN3
+in01[2] => Equal2.IN1
+in01[2] => Equal3.IN1
+in01[3] => mux2x1:mux1.entrada
+in01[3] => mux02_2x1:mux2.entrada02
+in01[3] => Equal0.IN0
+in01[3] => Equal1.IN0
+in01[3] => Equal2.IN0
+in01[3] => Equal3.IN0
+sinalDES => over.IN1
+sinalDES => over.DATAA
+sinalDES => over.IN1
+sinalDES => over.IN1
+sinalDES => over.IN1
+sinalDES => mux2x1:mux1.desloca
+sinalDES => mux02_2x1:mux2.desloca
+sinalDES => mux02_2x1:mux3.desloca
+sinalDES => mux02_2x1:mux4.desloca
+over <= over.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= mux02_2x1:mux4.saida
+s[1] <= mux02_2x1:mux3.saida
+s[2] <= mux02_2x1:mux2.saida
+s[3] <= mux2x1:mux1.saida
+
+
+|ula|shifterDIR:DIV2b|mux2x1:mux1
+entrada => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN2
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterDIR:DIV2b|mux02_2x1:mux2
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterDIR:DIV2b|mux02_2x1:mux3
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|shifterDIR:DIV2b|mux02_2x1:mux4
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma
+entA[0] => halfadder:half.a
+entA[1] => fulladder:full2.inA
+entA[2] => fulladder:full3.inA
+entA[3] => fulladder:full4.inA
+entB[0] => halfadder:half.b
+entB[1] => fulladder:full2.inB
+entB[2] => fulladder:full3.inB
+entB[3] => fulladder:full4.inB
+soma[0] <= halfadder:half.sum
+soma[1] <= fulladder:full2.outSUM
+soma[2] <= fulladder:full3.outSUM
+soma[3] <= fulladder:full4.outSUM
+over <= over.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|halfadder:half
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|fulladder:full2
+inA => halfadder:half.a
+inB => halfadder:half.b
+inC => halfadder:half1.b
+outSUM <= halfadder:half1.sum
+outCARRY <= outCARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|fulladder:full2|halfadder:half
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|fulladder:full2|halfadder:half1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|fulladder:full3
+inA => halfadder:half.a
+inB => halfadder:half.b
+inC => halfadder:half1.b
+outSUM <= halfadder:half1.sum
+outCARRY <= outCARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|fulladder:full3|halfadder:half
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|fulladder:full3|halfadder:half1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|fulladder:full4
+inA => halfadder:half.a
+inB => halfadder:half.b
+inC => halfadder:half1.b
+outSUM <= halfadder:half1.sum
+outCARRY <= outCARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|fulladder:full4|halfadder:half
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|somador:soma|fulladder:full4|halfadder:half1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub
+entA[0] => fulladder:full.inA
+entA[1] => fulladder:full2.inA
+entA[2] => fulladder:full3.inA
+entA[3] => fulladder:full4.inA
+entB[0] => fulladder:full.inB
+entB[1] => fulladder:full2.inB
+entB[2] => fulladder:full3.inB
+entB[3] => fulladder:full4.inB
+sub[0] <= fulladder:full.outSUM
+sub[1] <= fulladder:full2.outSUM
+sub[2] <= fulladder:full3.outSUM
+sub[3] <= fulladder:full4.outSUM
+over <= over.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full
+inA => halfadder:half.a
+inB => halfadder:half.b
+inC => halfadder:half1.b
+outSUM <= halfadder:half1.sum
+outCARRY <= outCARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full|halfadder:half
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full|halfadder:half1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full2
+inA => halfadder:half.a
+inB => halfadder:half.b
+inC => halfadder:half1.b
+outSUM <= halfadder:half1.sum
+outCARRY <= outCARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full2|halfadder:half
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full2|halfadder:half1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full3
+inA => halfadder:half.a
+inB => halfadder:half.b
+inC => halfadder:half1.b
+outSUM <= halfadder:half1.sum
+outCARRY <= outCARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full3|halfadder:half
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full3|halfadder:half1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full4
+inA => halfadder:half.a
+inB => halfadder:half.b
+inC => halfadder:half1.b
+outSUM <= halfadder:half1.sum
+outCARRY <= outCARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full4|halfadder:half
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|subtrator:sub|fulladder:full4|halfadder:half1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bcd_ex3:ex3_01
+ent[0] => ex3.IN0
+ent[0] => ex3.IN0
+ent[0] => Mux0.IN19
+ent[0] => ex3.IN0
+ent[0] => ex3.IN0
+ent[1] => ex3.IN1
+ent[1] => ex3.IN1
+ent[1] => ex3.IN1
+ent[1] => Mux0.IN18
+ent[1] => ex3.IN1
+ent[2] => ex3.IN1
+ent[2] => ex3.IN0
+ent[2] => Mux0.IN17
+ent[2] => ex3.IN1
+ent[2] => ex3.IN0
+ent[2] => ex3.IN0
+ent[3] => ex3.IN1
+ent[3] => ex3.IN1
+ent[3] => Mux0.IN16
+ent[3] => ex3.IN1
+ent[3] => ex3.IN1
+over <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+ex3[0] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+ex3[1] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+ex3[2] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+ex3[3] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bcd_ex3:ex3_02
+ent[0] => ex3.IN0
+ent[0] => ex3.IN0
+ent[0] => Mux0.IN19
+ent[0] => ex3.IN0
+ent[0] => ex3.IN0
+ent[1] => ex3.IN1
+ent[1] => ex3.IN1
+ent[1] => ex3.IN1
+ent[1] => Mux0.IN18
+ent[1] => ex3.IN1
+ent[2] => ex3.IN1
+ent[2] => ex3.IN0
+ent[2] => Mux0.IN17
+ent[2] => ex3.IN1
+ent[2] => ex3.IN0
+ent[2] => ex3.IN0
+ent[3] => ex3.IN1
+ent[3] => ex3.IN1
+ent[3] => Mux0.IN16
+ent[3] => ex3.IN1
+ent[3] => ex3.IN1
+over <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+ex3[0] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+ex3[1] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+ex3[2] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+ex3[3] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|OUlogico:OU
+ent1[0] => Saida.IN0
+ent1[1] => Saida.IN0
+ent1[2] => Saida.IN0
+ent1[3] => Saida.IN0
+ent2[0] => Saida.IN1
+ent2[1] => Saida.IN1
+ent2[2] => Saida.IN1
+ent2[3] => Saida.IN1
+over <= <GND>
+Saida[0] <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+Saida[1] <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+Saida[2] <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+Saida[3] <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|Elogico:Elogic
+ent1[0] => Saida.IN0
+ent1[1] => Saida.IN0
+ent1[2] => Saida.IN0
+ent1[3] => Saida.IN0
+ent2[0] => Saida.IN1
+ent2[1] => Saida.IN1
+ent2[2] => Saida.IN1
+ent2[3] => Saida.IN1
+over <= <GND>
+Saida[0] <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+Saida[1] <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+Saida[2] <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+Saida[3] <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|xor4BITS:XORlogic
+in1[0] => xorSIMPLES:xor01.entrada01
+in1[1] => xorSIMPLES:xor02.entrada01
+in1[2] => xorSIMPLES:xor03.entrada01
+in1[3] => xorSIMPLES:xor04.entrada01
+in2[0] => xorSIMPLES:xor01.entrada02
+in2[1] => xorSIMPLES:xor02.entrada02
+in2[2] => xorSIMPLES:xor03.entrada02
+in2[3] => xorSIMPLES:xor04.entrada02
+over <= <GND>
+outS[0] <= xorSIMPLES:xor01.Sout
+outS[1] <= xorSIMPLES:xor02.Sout
+outS[2] <= xorSIMPLES:xor03.Sout
+outS[3] <= xorSIMPLES:xor04.Sout
+
+
+|ula|xor4BITS:XORlogic|xorSIMPLES:xor01
+entrada01 => Sout.IN0
+entrada02 => Sout.IN1
+Sout <= Sout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|xor4BITS:XORlogic|xorSIMPLES:xor02
+entrada01 => Sout.IN0
+entrada02 => Sout.IN1
+Sout <= Sout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|xor4BITS:XORlogic|xorSIMPLES:xor03
+entrada01 => Sout.IN0
+entrada02 => Sout.IN1
+Sout <= Sout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|xor4BITS:XORlogic|xorSIMPLES:xor04
+entrada01 => Sout.IN0
+entrada02 => Sout.IN1
+Sout <= Sout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|negacao:nagac01
+ent[0] => OUTS[0].DATAIN
+ent[1] => OUTS[1].DATAIN
+ent[2] => OUTS[2].DATAIN
+ent[3] => OUTS[3].DATAIN
+over <= <GND>
+OUTS[0] <= ent[0].DB_MAX_OUTPUT_PORT_TYPE
+OUTS[1] <= ent[1].DB_MAX_OUTPUT_PORT_TYPE
+OUTS[2] <= ent[2].DB_MAX_OUTPUT_PORT_TYPE
+OUTS[3] <= ent[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|negacao:nagac02
+ent[0] => OUTS[0].DATAIN
+ent[1] => OUTS[1].DATAIN
+ent[2] => OUTS[2].DATAIN
+ent[3] => OUTS[3].DATAIN
+over <= <GND>
+OUTS[0] <= ent[0].DB_MAX_OUTPUT_PORT_TYPE
+OUTS[1] <= ent[1].DB_MAX_OUTPUT_PORT_TYPE
+OUTS[2] <= ent[2].DB_MAX_OUTPUT_PORT_TYPE
+OUTS[3] <= ent[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|NAND_logico:NANDlogic
+in1[0] => saidaNAND.IN0
+in1[1] => saidaNAND.IN0
+in1[2] => saidaNAND.IN0
+in1[3] => saidaNAND.IN0
+in2[0] => saidaNAND.IN1
+in2[1] => saidaNAND.IN1
+in2[2] => saidaNAND.IN1
+in2[3] => saidaNAND.IN1
+over <= <GND>
+saidaNAND[0] <= saidaNAND.DB_MAX_OUTPUT_PORT_TYPE
+saidaNAND[1] <= saidaNAND.DB_MAX_OUTPUT_PORT_TYPE
+saidaNAND[2] <= saidaNAND.DB_MAX_OUTPUT_PORT_TYPE
+saidaNAND[3] <= saidaNAND.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|NOR_logico:NORlogic
+in1[0] => saidaNOR.IN0
+in1[1] => saidaNOR.IN0
+in1[2] => saidaNOR.IN0
+in1[3] => saidaNOR.IN0
+in2[0] => saidaNOR.IN1
+in2[1] => saidaNOR.IN1
+in2[2] => saidaNOR.IN1
+in2[3] => saidaNOR.IN1
+over <= <GND>
+saidaNOR[0] <= saidaNOR.DB_MAX_OUTPUT_PORT_TYPE
+saidaNOR[1] <= saidaNOR.DB_MAX_OUTPUT_PORT_TYPE
+saidaNOR[2] <= saidaNOR.DB_MAX_OUTPUT_PORT_TYPE
+saidaNOR[3] <= saidaNOR.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|XNOR_logico:XNORlogic
+in1[0] => saidaXNOR.IN0
+in1[1] => saidaXNOR.IN0
+in1[2] => saidaXNOR.IN0
+in1[3] => saidaXNOR.IN0
+in2[0] => saidaXNOR.IN1
+in2[1] => saidaXNOR.IN1
+in2[2] => saidaXNOR.IN1
+in2[3] => saidaXNOR.IN1
+over <= <GND>
+saidaXNOR[0] <= saidaXNOR.DB_MAX_OUTPUT_PORT_TYPE
+saidaXNOR[1] <= saidaXNOR.DB_MAX_OUTPUT_PORT_TYPE
+saidaXNOR[2] <= saidaXNOR.DB_MAX_OUTPUT_PORT_TYPE
+saidaXNOR[3] <= saidaXNOR.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|muxPRINC:MUX
+in01[0] => Mux3.IN0
+in01[1] => Mux2.IN0
+in01[2] => Mux1.IN0
+in01[3] => Mux0.IN0
+in02[0] => Mux3.IN1
+in02[1] => Mux2.IN1
+in02[2] => Mux1.IN1
+in02[3] => Mux0.IN1
+in03[0] => Mux3.IN2
+in03[1] => Mux2.IN2
+in03[2] => Mux1.IN2
+in03[3] => Mux0.IN2
+in04[0] => Mux3.IN3
+in04[1] => Mux2.IN3
+in04[2] => Mux1.IN3
+in04[3] => Mux0.IN3
+in05[0] => Mux3.IN4
+in05[1] => Mux2.IN4
+in05[2] => Mux1.IN4
+in05[3] => Mux0.IN4
+in06[0] => Mux3.IN5
+in06[1] => Mux2.IN5
+in06[2] => Mux1.IN5
+in06[3] => Mux0.IN5
+in07[0] => Mux3.IN6
+in07[1] => Mux2.IN6
+in07[2] => Mux1.IN6
+in07[3] => Mux0.IN6
+in08[0] => Mux3.IN7
+in08[1] => Mux2.IN7
+in08[2] => Mux1.IN7
+in08[3] => Mux0.IN7
+in09[0] => Mux3.IN8
+in09[1] => Mux2.IN8
+in09[2] => Mux1.IN8
+in09[3] => Mux0.IN8
+in10[0] => Mux3.IN9
+in10[1] => Mux2.IN9
+in10[2] => Mux1.IN9
+in10[3] => Mux0.IN9
+in11[0] => Mux3.IN10
+in11[1] => Mux2.IN10
+in11[2] => Mux1.IN10
+in11[3] => Mux0.IN10
+in12[0] => Mux3.IN11
+in12[1] => Mux2.IN11
+in12[2] => Mux1.IN11
+in12[3] => Mux0.IN11
+in13[0] => Mux3.IN12
+in13[1] => Mux2.IN12
+in13[2] => Mux1.IN12
+in13[3] => Mux0.IN12
+in14[0] => Mux3.IN13
+in14[1] => Mux2.IN13
+in14[2] => Mux1.IN13
+in14[3] => Mux0.IN13
+in15[0] => Mux3.IN14
+in15[1] => Mux2.IN14
+in15[2] => Mux1.IN14
+in15[3] => Mux0.IN14
+in16[0] => Mux3.IN15
+in16[1] => Mux2.IN15
+in16[2] => Mux1.IN15
+in16[3] => Mux0.IN15
+sinal[0] => Mux0.IN19
+sinal[0] => Mux1.IN19
+sinal[0] => Mux2.IN19
+sinal[0] => Mux3.IN19
+sinal[1] => Mux0.IN18
+sinal[1] => Mux1.IN18
+sinal[1] => Mux2.IN18
+sinal[1] => Mux3.IN18
+sinal[2] => Mux0.IN17
+sinal[2] => Mux1.IN17
+sinal[2] => Mux2.IN17
+sinal[2] => Mux3.IN17
+sinal[3] => Mux0.IN16
+sinal[3] => Mux1.IN16
+sinal[3] => Mux2.IN16
+sinal[3] => Mux3.IN16
+saidamux[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|selet_OVERFLOW:selOVER
+over01 => Mux0.IN0
+over02 => Mux0.IN1
+over03 => Mux0.IN2
+over04 => Mux0.IN3
+over05 => Mux0.IN4
+over06 => Mux0.IN5
+over07 => Mux0.IN6
+over08 => Mux0.IN7
+over09 => Mux0.IN8
+over10 => Mux0.IN9
+over11 => Mux0.IN10
+over12 => Mux0.IN11
+over13 => Mux0.IN12
+over14 => Mux0.IN13
+over15 => Mux0.IN14
+over16 => Mux0.IN15
+sinal[0] => Mux0.IN19
+sinal[1] => Mux0.IN18
+sinal[2] => Mux0.IN17
+sinal[3] => Mux0.IN16
+saidaOVER <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|decod_bin_7seg:decod_7seg
+entrada[0] => Mux0.IN19
+entrada[0] => Mux1.IN19
+entrada[0] => Mux2.IN19
+entrada[0] => Mux3.IN10
+entrada[0] => Mux4.IN10
+entrada[0] => Mux5.IN19
+entrada[0] => Mux6.IN19
+entrada[1] => Mux0.IN18
+entrada[1] => Mux1.IN18
+entrada[1] => Mux2.IN18
+entrada[1] => Mux3.IN9
+entrada[1] => Mux4.IN9
+entrada[1] => Mux5.IN18
+entrada[1] => Mux6.IN18
+entrada[2] => Mux0.IN17
+entrada[2] => Mux1.IN17
+entrada[2] => Mux2.IN17
+entrada[2] => Mux3.IN8
+entrada[2] => Mux4.IN8
+entrada[2] => Mux5.IN17
+entrada[2] => Mux6.IN17
+entrada[3] => Mux0.IN16
+entrada[3] => Mux1.IN16
+entrada[3] => Mux2.IN16
+entrada[3] => Mux5.IN16
+entrada[3] => Mux6.IN16
+entrada[3] => saida7SEG[7].DATAIN
+saida7SEG[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+saida7SEG[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+saida7SEG[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+saida7SEG[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+saida7SEG[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+saida7SEG[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+saida7SEG[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+saida7SEG[7] <= entrada[3].DB_MAX_OUTPUT_PORT_TYPE
+saida7SEG[8] <= <VCC>
+saida7SEG[9] <= <VCC>
+saida7SEG[10] <= <VCC>
+saida7SEG[11] <= <VCC>
+saida7SEG[12] <= <VCC>
+saida7SEG[13] <= <VCC>
+
+

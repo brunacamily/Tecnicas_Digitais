@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\subtrator\simulation\qsim
+vsubtrator
+Z1 I3YJ^JWYnPI>2A@U>@?WC`3
+Z2 VgaQYUFC9GaXO1JMW9MgG;1
+Z3 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\subtrator\simulation\qsim
+Z4 w1679602901
+Z5 8subtrator.vo
+Z6 Fsubtrator.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|subtrator.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 NF?`6Gcz1PIJ]N=_D]E5@3
+!s85 0
+Z11 !s108 1679602903.123000
+Z12 !s107 subtrator.vo|
+!s101 -O0
+vsubtrator_vlg_check_tst
+!i10b 1
+Z13 !s100 0>dk_8Yb6[Vh1m<<fYH9]3
+Z14 IE>Wg5UNQzn>HbAD32FJhY1
+Z15 Vb1ZcAjd36cJcGTAl_llb^0
+R3
+Z16 w1679602899
+Z17 8subtrator.vt
+Z18 Fsubtrator.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1679602903.265000
+Z20 !s107 subtrator.vt|
+Z21 !s90 -work|work|subtrator.vt|
+!s101 -O0
+R9
+vsubtrator_vlg_sample_tst
+!i10b 1
+Z22 !s100 QEc61I_;VD>F[CVT?<ffd1
+Z23 I?h<;EP[iSm3<2>dSXW^Dc2
+Z24 VQLSKMW@k>kfVkh87R`Ch<0
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vsubtrator_vlg_vec_tst
+!i10b 1
+!s100 P]E9RGNfNAL>G]Vhe3Bc]3
+Idzni]gonTR`0kOB_`J=W[2
+Z25 VZEcK1_Qcd2hN?lI1F5^>^2
+R3
+R16
+R17
+R18
+Z26 L0 234
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

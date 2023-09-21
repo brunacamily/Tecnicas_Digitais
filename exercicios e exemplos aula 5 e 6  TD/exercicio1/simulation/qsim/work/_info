@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\exercicios e exemplos aula TD\exercicio1\simulation\qsim
+vexercicio1
+Z1 IQ56mZ9Ndz^[iCcNjPi@MQ2
+Z2 VAV^Jf7G029Z;1:c<[G]2b3
+Z3 dC:\Users\bruna\OneDrive\Área de Trabalho\Técnicas Digitais\exercicios e exemplos aula 5 e 6  TD\exercicio1\simulation\qsim
+Z4 w1679689335
+Z5 8exercicio1.vo
+Z6 Fexercicio1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|exercicio1.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 bdNN:^A=kXdnd60FkO5bQ1
+!s85 0
+Z11 !s108 1679689336.049000
+Z12 !s107 exercicio1.vo|
+!s101 -O0
+vexercicio1_vlg_check_tst
+!i10b 1
+Z13 !s100 eV_HZ7i48Yi^Vfk_im:eZ2
+Z14 I51_BOb8mTjgjJe5o[02>[0
+Z15 V4N7O:_VT`i_7^Gmod?>_B3
+R3
+Z16 w1679689333
+Z17 8exercicio1.vt
+Z18 Fexercicio1.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z19 !s108 1679689336.200000
+Z20 !s107 exercicio1.vt|
+Z21 !s90 -work|work|exercicio1.vt|
+!s101 -O0
+R9
+vexercicio1_vlg_sample_tst
+!i10b 1
+Z22 !s100 7DHOdnUK=F@GI4iH>KSIM2
+Z23 IGNJmn8k>dcUfEk`i:54GM1
+Z24 VLE_Gh9Nh2Y`RD4Y_WIVA31
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vexercicio1_vlg_vec_tst
+!i10b 1
+!s100 l`UL1fZLiYahLiQUIfQUM3
+IoV`lD0V>^Ea:n]5@JSNgW3
+Z25 VXQQAZ]2T]YPZ:2mF8iQKn2
+R3
+R16
+R17
+R18
+Z26 L0 211
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

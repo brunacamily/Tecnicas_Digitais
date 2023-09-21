@@ -1,0 +1,60 @@
+-- contador assíncrono de 3 bits com componentes Flip-flops D
+
+		LIBRARY IEEE;
+		USE IEEE.std_logic_1164.all;
+
+		entity ff_jk_3bits is 
+		port(
+			j,k: in std_logic_vector(2 downto 0);
+			clear: in std_logic;
+			clk: in std_logic;
+			q_out: out std_logic_vector(2 downto 0);
+			q_not: out std_logic_vector(2 downto 0)
+		);
+			
+		end ff_jk_3bits;
+		architecture arch_ff_jk_3bits of ff_jk_3bits is 
+		
+		signal q_temp: std_logic_vector(2 downto 0);
+		
+		begin 
+		
+		
+		processo1: PROCESS(clock, clear)
+		BEGIN
+		IF clear = '1' THEN
+			q_temp <= q_temp;
+		ELSIF clock'EVENT and clock='1' THEN
+			IF j='0' and k='0' THEN
+				q_temp <= q_temp;
+			ELSIF j='0' and k='1' THEN
+				q_temp <= '0';
+				ELSIF j='1' and k='0' THEN
+					q_temp <= '1';
+					else
+						q_temp <= not q_temp;
+			
+					
+						
+			END IF;
+		END IF;
+		END PROCESS;	
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		end arch_ff_jk_3bits;

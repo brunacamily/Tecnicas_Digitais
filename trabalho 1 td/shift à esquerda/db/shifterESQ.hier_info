@@ -1,0 +1,84 @@
+|shifterESQ
+in1[0] => mux2x1:mux1.entrada
+in1[0] => mux02_2x1:mux2.entrada02
+in1[0] => Equal0.IN1
+in1[0] => Equal1.IN3
+in1[0] => Equal2.IN0
+in1[0] => Equal3.IN3
+in1[0] => Equal4.IN3
+in1[0] => Equal5.IN3
+in1[0] => Equal6.IN2
+in1[0] => Equal7.IN3
+in1[1] => mux02_2x1:mux2.entrada01
+in1[1] => mux02_2x1:mux3.entrada02
+in1[1] => Equal0.IN0
+in1[1] => Equal1.IN0
+in1[1] => Equal2.IN3
+in1[1] => Equal3.IN2
+in1[1] => Equal4.IN2
+in1[1] => Equal5.IN2
+in1[1] => Equal6.IN3
+in1[1] => Equal7.IN2
+in1[2] => mux02_2x1:mux3.entrada01
+in1[2] => mux02_2x1:mux4.entrada02
+in1[2] => Equal0.IN3
+in1[2] => Equal1.IN2
+in1[2] => Equal2.IN2
+in1[2] => Equal3.IN1
+in1[2] => Equal4.IN1
+in1[2] => Equal5.IN1
+in1[2] => Equal6.IN1
+in1[2] => Equal7.IN1
+in1[3] => mux02_2x1:mux4.entrada01
+in1[3] => Equal0.IN2
+in1[3] => Equal1.IN1
+in1[3] => Equal2.IN1
+in1[3] => Equal3.IN0
+in1[3] => Equal4.IN0
+in1[3] => Equal5.IN0
+in1[3] => Equal6.IN0
+in1[3] => Equal7.IN0
+indesl => over.IN1
+indesl => over.DATAA
+indesl => mux2x1:mux1.desloca
+indesl => mux02_2x1:mux2.desloca
+indesl => mux02_2x1:mux3.desloca
+indesl => mux02_2x1:mux4.desloca
+over <= over.DB_MAX_OUTPUT_PORT_TYPE
+outS[0] <= mux2x1:mux1.saida
+outS[1] <= mux02_2x1:mux2.saida
+outS[2] <= mux02_2x1:mux3.saida
+outS[3] <= mux02_2x1:mux4.saida
+
+
+|shifterESQ|mux2x1:mux1
+entrada => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN2
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shifterESQ|mux02_2x1:mux2
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shifterESQ|mux02_2x1:mux3
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shifterESQ|mux02_2x1:mux4
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,106 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "03/08/2023 22:11:02"
+
+// 
+// Device: Altera EP4CGX15BF14C6 Package FBGA169
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module exemplo7 (
+	vetor,
+	s);
+input 	[2:0] vetor;
+output 	s;
+
+// Design Ports Information
+// vetor[0]	=>  Location: PIN_B6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// vetor[1]	=>  Location: PIN_L9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// s	=>  Location: PIN_A7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// vetor[2]	=>  Location: PIN_C6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \vetor[0]~input_o ;
+wire \vetor[1]~input_o ;
+wire \s~output_o ;
+wire \vetor[2]~input_o ;
+
+
+// Location: IOOBUF_X12_Y31_N2
+cycloneiv_io_obuf \s~output (
+	.i(\vetor[2]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\s~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \s~output .bus_hold = "false";
+defparam \s~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X14_Y31_N1
+cycloneiv_io_ibuf \vetor[2]~input (
+	.i(vetor[2]),
+	.ibar(gnd),
+	.o(\vetor[2]~input_o ));
+// synopsys translate_off
+defparam \vetor[2]~input .bus_hold = "false";
+defparam \vetor[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X14_Y31_N8
+cycloneiv_io_ibuf \vetor[0]~input (
+	.i(vetor[0]),
+	.ibar(gnd),
+	.o(\vetor[0]~input_o ));
+// synopsys translate_off
+defparam \vetor[0]~input .bus_hold = "false";
+defparam \vetor[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X24_Y0_N8
+cycloneiv_io_ibuf \vetor[1]~input (
+	.i(vetor[1]),
+	.ibar(gnd),
+	.o(\vetor[1]~input_o ));
+// synopsys translate_off
+defparam \vetor[1]~input .bus_hold = "false";
+defparam \vetor[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign s = \s~output_o ;
+
+endmodule

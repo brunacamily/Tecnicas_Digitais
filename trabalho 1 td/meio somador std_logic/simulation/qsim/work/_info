@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\meio somador std_logic\simulation\qsim
+vhalfadder
+Z1 IAzjo4mRBRVFn==IR0<zPA0
+Z2 VPmQFM95^E>S90CKVNV0mW0
+Z3 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\meio somador std_logic\simulation\qsim
+Z4 w1679515795
+Z5 8halfadder.vo
+Z6 Fhalfadder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 I2@5j_J9BU]i0XbMhDY@c1
+!s85 0
+Z10 !s108 1679515798.332000
+Z11 !s107 halfadder.vo|
+Z12 !s90 -work|work|halfadder.vo|
+!s101 -O0
+vhalfadder_vlg_check_tst
+!i10b 1
+!s100 WZ:Cjh627dCL]J4cb>W5l0
+ID<h?VmzL2L>2KW4[aa=h>1
+VOe^Kk8mMnPZN_<iEOl5Zg2
+R3
+Z13 w1679515794
+Z14 8halfadder.vt
+Z15 Fhalfadder.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1679515798.481000
+Z17 !s107 halfadder.vt|
+Z18 !s90 -work|work|halfadder.vt|
+!s101 -O0
+R8
+vhalfadder_vlg_sample_tst
+!i10b 1
+!s100 [`;7lgdn:EQ^d?Z0ZH0[@2
+IIQ]jW2C<PoSlZOVbKEKI>3
+V=`NIiz6;4=_`C5?98UKTA0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vhalfadder_vlg_vec_tst
+!i10b 1
+!s100 Tj9lzl`OELKc6Q`c00_`=0
+IaME4fB0?KmfYPRAaU7B2T1
+VBcAj:zo?XGFl4Fblm`;V@2
+R3
+R13
+R14
+R15
+L0 181
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

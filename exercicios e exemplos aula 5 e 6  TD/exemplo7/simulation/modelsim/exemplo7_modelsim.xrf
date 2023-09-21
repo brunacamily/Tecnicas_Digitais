@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/bruna/OneDrive/햞ea de Trabalho/exercicios e exemplos aula TD/exemplo7/exemplo7.vhd
+source_file = 1, C:/Users/bruna/OneDrive/햞ea de Trabalho/exercicios e exemplos aula TD/exemplo7/Waveform.vwf
+source_file = 1, C:/Users/bruna/OneDrive/햞ea de Trabalho/exercicios e exemplos aula TD/exemplo7/Waveform1.vwf
+source_file = 1, C:/Users/bruna/OneDrive/햞ea de Trabalho/exercicios e exemplos aula TD/exemplo7/db/exemplo7.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = exemplo7
+instance = comp, \s~output , s~output, exemplo7, 1
+instance = comp, \vetor[2]~input , vetor[2]~input, exemplo7, 1
+instance = comp, \vetor[0]~input , vetor[0]~input, exemplo7, 1
+instance = comp, \vetor[1]~input , vetor[1]~input, exemplo7, 1

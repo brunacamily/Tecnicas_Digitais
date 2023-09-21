@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\resto\end\e logico 1x1\simulation\qsim
+vElogico
+Z1 I^Vgme=V7AkXzIA5;oJKS[0
+Z2 VhnNnQfoC]S=kzH@N8>h131
+Z3 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\resto\end\e logico 1x1\simulation\qsim
+Z4 w1679862806
+Z5 8Elogico.vo
+Z6 FElogico.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@elogico
+!i10b 1
+Z10 !s100 aPSoKBTD_lYL4TAea@RRh0
+!s85 0
+Z11 !s108 1679862807.696000
+Z12 !s107 Elogico.vo|
+Z13 !s90 -work|work|Elogico.vo|
+!s101 -O0
+vElogico_vlg_check_tst
+!i10b 1
+!s100 81zh7AKZNf@mhb6^B9kJg1
+IEV;PbA=ERWE91PKD78C`m1
+VNG8C`CF^c^]@j>Glh;zMf1
+R3
+Z14 w1679862805
+Z15 8Elogico.vt
+Z16 FElogico.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1679862807.853000
+Z18 !s107 Elogico.vt|
+Z19 !s90 -work|work|Elogico.vt|
+!s101 -O0
+R8
+n@elogico_vlg_check_tst
+vElogico_vlg_sample_tst
+!i10b 1
+!s100 hm?zBPdW6k]7[j@OI3HRK0
+IR2EQPWPfIDFLPmO8L2a[j1
+VdCl7jgnPK?@kFN=F<7kjk0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@elogico_vlg_sample_tst
+vElogico_vlg_vec_tst
+!i10b 1
+!s100 J4Q5ElRkXjkmYVLNF4D4S0
+IoY^ecFKk>@b?^^9OVM7^[0
+VT>4j[OYaBMG4m=5;MLWOS2
+R3
+R14
+R15
+R16
+L0 207
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@elogico_vlg_vec_tst

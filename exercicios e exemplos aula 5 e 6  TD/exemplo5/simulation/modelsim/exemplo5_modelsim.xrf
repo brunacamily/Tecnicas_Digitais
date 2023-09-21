@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/bruna/OneDrive/Área de Trabalho/exercicios e exemplos aula TD/exemplo5/exemplo5.vhd
+source_file = 1, C:/Users/bruna/OneDrive/Área de Trabalho/exercicios e exemplos aula TD/exemplo5/Waveform.vwf
+source_file = 1, Waveform1.vwf
+source_file = 1, C:/Users/bruna/OneDrive/Área de Trabalho/exercicios e exemplos aula TD/exemplo5/db/exemplo5.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = exemplo5
+instance = comp, \s~output , s~output, exemplo5, 1
+instance = comp, \a~input , a~input, exemplo5, 1
+instance = comp, \c~input , c~input, exemplo5, 1
+instance = comp, \b~input , b~input, exemplo5, 1
+instance = comp, \s~0 , s~0, exemplo5, 1

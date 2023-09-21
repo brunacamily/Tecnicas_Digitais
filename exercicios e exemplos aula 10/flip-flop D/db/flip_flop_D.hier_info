@@ -1,0 +1,7 @@
+|flip_flop_D
+d => q_temp.DATAIN
+clk => q_temp.CLK
+q <= q_temp.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

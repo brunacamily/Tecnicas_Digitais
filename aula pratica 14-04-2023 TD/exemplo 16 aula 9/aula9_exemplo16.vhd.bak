@@ -1,0 +1,40 @@
+
+entity exemplo16 is 
+	port(
+		limpa: in bit;
+		clock16:  in bit;
+		carga:in bit;
+		d0,d1,d2,d3: in bit;
+		q1,q2,q3,q4: out bit
+
+	);
+end exemplo16;
+
+architecture arch_exemplo16 of exemplo16 is 
+	signal q_temp: bit;
+
+	
+component exemplo15
+port(
+		clear: in bit;
+		clock:  in bit;
+		load:in bit;
+		d:in bit;
+		q: out bit		);
+end component;
+
+BEGIN
+ex01:exemplo15
+port map (clear=>limpa , clock=>clock16 , load=>carga , d=>d1 , q=>q1 );
+
+ex02:exemplo15
+port map (clear=>limpa , clock=>clock16 , load=>carga , d=>d2 , q=>q2  );
+
+ex03:exemplo15
+port map (clear=>limpa , clock=>clock16 , load=>carga , d=>d3 , q=>q3 );
+
+ex04:exemplo15
+port map (clear=>limpa , clock=>clock16 , load=>carga , d=>d4 , q=>q4  );
+
+
+end arch_exemplo16;

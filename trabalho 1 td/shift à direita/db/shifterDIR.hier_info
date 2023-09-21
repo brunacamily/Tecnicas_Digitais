@@ -1,0 +1,71 @@
+|shifterDIR
+in01[0] => mux02_2x1:mux4.entrada01
+in01[0] => Equal0.IN1
+in01[0] => Equal1.IN2
+in01[0] => Equal2.IN2
+in01[0] => Equal3.IN3
+in01[1] => mux02_2x1:mux3.entrada01
+in01[1] => mux02_2x1:mux4.entrada02
+in01[1] => Equal0.IN3
+in01[1] => Equal1.IN1
+in01[1] => Equal2.IN3
+in01[1] => Equal3.IN2
+in01[2] => mux02_2x1:mux2.entrada01
+in01[2] => mux02_2x1:mux3.entrada02
+in01[2] => Equal0.IN2
+in01[2] => Equal1.IN3
+in01[2] => Equal2.IN1
+in01[2] => Equal3.IN1
+in01[3] => mux2x1:mux1.entrada
+in01[3] => mux02_2x1:mux2.entrada02
+in01[3] => Equal0.IN0
+in01[3] => Equal1.IN0
+in01[3] => Equal2.IN0
+in01[3] => Equal3.IN0
+sinalDES => over.IN1
+sinalDES => over.DATAA
+sinalDES => over.IN1
+sinalDES => over.IN1
+sinalDES => over.IN1
+sinalDES => mux2x1:mux1.desloca
+sinalDES => mux02_2x1:mux2.desloca
+sinalDES => mux02_2x1:mux3.desloca
+sinalDES => mux02_2x1:mux4.desloca
+over <= over.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= mux02_2x1:mux4.saida
+s[1] <= mux02_2x1:mux3.saida
+s[2] <= mux02_2x1:mux2.saida
+s[3] <= mux2x1:mux1.saida
+
+
+|shifterDIR|mux2x1:mux1
+entrada => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN2
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shifterDIR|mux02_2x1:mux2
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shifterDIR|mux02_2x1:mux3
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shifterDIR|mux02_2x1:mux4
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

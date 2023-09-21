@@ -1,0 +1,16 @@
+|reg_1bit
+j => processo01.IN0
+j => processo01.IN0
+k => processo01.IN1
+k => processo01.IN1
+k => processo01.IN1
+k => processo01.IN1
+clock => q_temp.CLK
+clear => q_temp.ACLR
+load => processo01.IN1
+load => processo01.IN1
+hold => q_temp.ENA
+q_out <= q_temp.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

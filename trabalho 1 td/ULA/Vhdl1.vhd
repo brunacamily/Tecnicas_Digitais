@@ -1,0 +1,61 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+entity ula is 
+port(
+	a: in std_logic_vector(3 downto 0);
+	b: in std_logic_vector(3 downto 0);
+	sinalMUX:in std_logic_vector(3 downto 0);
+	seg7: out std_logic_vector(13 downto 0)
+);
+end ula;
+architecture arch_ula of ula is 
+
+signal shiftESQa: std_logic_vector(3 downto 0);
+signal shiftESQb: std_logic_vector(3 downto 0);
+signal fiosoma: std_logic_vector(3 downto 0);  -- resultado a+b
+signal oversoma: std_logic;  -- sinal de overflow da soma
+signal fiosub: std_logic_vector(3 downto 0);  -- resultado a-b
+signal oversub: std_logic;  -- sinal de overflow da subtração
+
+component shifterESQ  -- shifter 2x (a ou b), serve para os dois
+ port(
+	 in1: in std_logic_vector(3 downto 0);
+	 indesl: in std_logic;
+	 outS: out std_logic_vector(3 downto 0)
+);
+end component;
+
+component somador 
+port(
+	entA,entB:in std_logic_vector(3 downto 0);
+	soma: out std_logic_vector(3 downto 0);
+	over: out std_logic  -- overflow;
+);
+end component;
+
+component subtrator
+port(
+	entA,entB:in std_logic_vector(3 downto 0);
+	sub: out std_logic_vector(3 downto 0);
+	over: out std_logic  -- overflow;
+);
+end component;
+
+
+component ---
+
+end component;
+
+
+begin 
+siftEa: shifterESQ 	--shift à esquerda de A
+	PORT MAP ( in1=>a, indesl=>sinalMUX(0) , outS=>shiftESQa);
+siftEb: shifterESQ 	-- shift à esquerda de B
+	PORT MAP ( in1=>b, indesl=>sinalMUX(0) , outS=>shiftESQb);
+soma: somador			-- soma A+B
+	PORT MAP ( entA=>a, entB=>b, soma=>fiosoma  , over=>oversoma );
+sub: subtrator       -- subtração a-b
+	PORT MAP ( enA=>a , entB=>b ,sub=>fiosub, over=> oversub );
+	
+
+end arch_ula;

@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/bruna/OneDrive/Área de Trabalho/Técnicas Digitais/aula pratica 10-03-2023 ... Somador/somadorCoompleto/teste/somadorcompleto.vhd
+source_file = 1, C:/Users/bruna/OneDrive/Área de Trabalho/Técnicas Digitais/aula pratica 10-03-2023 ... Somador/somadorCoompleto/teste/Waveform.vwf
+source_file = 1, C:/Users/bruna/OneDrive/Área de Trabalho/Técnicas Digitais/aula pratica 10-03-2023 ... Somador/somadorCoompleto/teste/db/somadorcompleto.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/bruna/OneDrive/Área de Trabalho/Técnicas Digitais/aula pratica 10-03-2023 ... Somador/somadorCoompleto/teste/meiosomador.vhd
+design_name = somadorcompleto
+instance = comp, \sum1~output , sum1~output, somadorcompleto, 1
+instance = comp, \carry1~output , carry1~output, somadorcompleto, 1
+instance = comp, \c~input , c~input, somadorcompleto, 1
+instance = comp, \a1~input , a1~input, somadorcompleto, 1
+instance = comp, \b1~input , b1~input, somadorcompleto, 1
+instance = comp, \meio1|sum~0 , meio1|sum~0, somadorcompleto, 1
+instance = comp, \carry1~0 , carry1~0, somadorcompleto, 1

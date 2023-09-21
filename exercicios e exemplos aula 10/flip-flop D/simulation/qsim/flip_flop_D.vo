@@ -1,0 +1,167 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "04/21/2023 19:31:33"
+
+// 
+// Device: Altera EP4CGX15BF14C6 Package FBGA169
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module flip_flop_D (
+	entrada,
+	limpa,
+	clock,
+	saida,
+	saida_neg);
+input 	entrada;
+input 	limpa;
+input 	clock;
+output 	saida;
+output 	saida_neg;
+
+// Design Ports Information
+// saida	=>  Location: PIN_L5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// saida_neg	=>  Location: PIN_N6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// entrada	=>  Location: PIN_M4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// clock	=>  Location: PIN_M6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// limpa	=>  Location: PIN_L7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \saida~output_o ;
+wire \saida_neg~output_o ;
+wire \clock~input_o ;
+wire \entrada~input_o ;
+wire \q_fio~feeder_combout ;
+wire \limpa~input_o ;
+wire \q_fio~q ;
+
+
+// Location: IOOBUF_X14_Y0_N9
+cycloneiv_io_obuf \saida~output (
+	.i(\q_fio~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\saida~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \saida~output .bus_hold = "false";
+defparam \saida~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X12_Y0_N2
+cycloneiv_io_obuf \saida_neg~output (
+	.i(!\q_fio~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\saida_neg~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \saida_neg~output .bus_hold = "false";
+defparam \saida_neg~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X12_Y0_N8
+cycloneiv_io_ibuf \clock~input (
+	.i(clock),
+	.ibar(gnd),
+	.o(\clock~input_o ));
+// synopsys translate_off
+defparam \clock~input .bus_hold = "false";
+defparam \clock~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X8_Y0_N1
+cycloneiv_io_ibuf \entrada~input (
+	.i(entrada),
+	.ibar(gnd),
+	.o(\entrada~input_o ));
+// synopsys translate_off
+defparam \entrada~input .bus_hold = "false";
+defparam \entrada~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X12_Y1_N0
+cycloneiv_lcell_comb \q_fio~feeder (
+// Equation(s):
+// \q_fio~feeder_combout  = \entrada~input_o 
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(\entrada~input_o ),
+	.cin(gnd),
+	.combout(\q_fio~feeder_combout ),
+	.cout());
+// synopsys translate_off
+defparam \q_fio~feeder .lut_mask = 16'hFF00;
+defparam \q_fio~feeder .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOIBUF_X14_Y0_N1
+cycloneiv_io_ibuf \limpa~input (
+	.i(limpa),
+	.ibar(gnd),
+	.o(\limpa~input_o ));
+// synopsys translate_off
+defparam \limpa~input .bus_hold = "false";
+defparam \limpa~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: FF_X12_Y1_N1
+dffeas q_fio(
+	.clk(\clock~input_o ),
+	.d(\q_fio~feeder_combout ),
+	.asdata(vcc),
+	.clrn(!\limpa~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\q_fio~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam q_fio.is_wysiwyg = "true";
+defparam q_fio.power_up = "low";
+// synopsys translate_on
+
+assign saida = \saida~output_o ;
+
+assign saida_neg = \saida_neg~output_o ;
+
+endmodule

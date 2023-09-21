@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\Técnicas Digitais\aula pratica 14-04-2023 TD\exemplo15 aula 9\simulation\qsim
+vexemplo15
+Z1 !s100 X]HBjo53zWaWzQRk9d`jO1
+Z2 I>GR<`f0`lXazKTzAlfOMK0
+Z3 V`@GW@8]ze5V[=dk0Q=VaT3
+Z4 dC:\Users\bruna\OneDrive\Área de Trabalho\Técnicas Digitais\aula pratica 14-04-2023 TD\exemplo15 aula 9\simulation\qsim
+Z5 w1681685607
+Z6 8exemplo15.vo
+Z7 Fexemplo15.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|exemplo15.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1681685608.253000
+Z12 !s107 exemplo15.vo|
+!s101 -O0
+vexemplo15_vlg_check_tst
+!i10b 1
+Z13 !s100 aPDKaa<Wz2O5PZFL1a@PX3
+Z14 IMA4UjJ:HJj8cWfFVCXj9V3
+Z15 V7QdEKg=hQeQz_UZl2fand1
+R4
+Z16 w1681685606
+Z17 8exemplo15.vt
+Z18 Fexemplo15.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1681685608.402000
+Z20 !s107 exemplo15.vt|
+Z21 !s90 -work|work|exemplo15.vt|
+!s101 -O0
+R10
+vexemplo15_vlg_sample_tst
+!i10b 1
+Z22 !s100 @7AO4blljj_JVSS@Ike@41
+Z23 I6DOb^5Bm`b8MEQk]GZ0WT2
+Z24 VQoOO31Xb?V[08JG^;akle3
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vexemplo15_vlg_vec_tst
+!i10b 1
+!s100 3Y21CIe2HSBWOdLVQAJ1c0
+I>D^kP=]96QVPmE^78mmoP0
+Z25 V]HP2X[=eDLic_3>>:FbHG0
+R4
+R16
+R17
+R18
+Z26 L0 158
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

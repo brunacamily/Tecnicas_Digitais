@@ -1,0 +1,9 @@
+|exercicio3
+bcd[0] => s.IN0
+bcd[0] => s.IN0
+bcd[1] => s.IN1
+bcd[2] => s.IN1
+bcd[3] => ~NO_FANOUT~
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

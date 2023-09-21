@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\exercicios e exemplos aula TD\exemplo9\simulation\qsim
+vexemplo9
+Z1 I`=UgZ8XWE1lG4[o?kfPz`1
+Z2 VlVXH^E:]6e>2E[VC7NSb>0
+Z3 dC:\Users\bruna\OneDrive\Área de Trabalho\exercicios e exemplos aula TD\exemplo9\simulation\qsim
+Z4 w1678323622
+Z5 8exemplo9.vo
+Z6 Fexemplo9.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 zRQV19C6dPR4E6z>Jb2E02
+!s85 0
+Z10 !s108 1678323623.358000
+Z11 !s107 exemplo9.vo|
+Z12 !s90 -work|work|exemplo9.vo|
+!s101 -O0
+vexemplo9_vlg_check_tst
+!i10b 1
+!s100 d[<l0S8f2SVc[5;c:Rd1e0
+ISL[oTm6cQbgaHW0R<lB@>1
+VBC>DUWfhzA5YF0U^1ekYU3
+R3
+Z13 w1678323621
+Z14 8exemplo9.vt
+Z15 Fexemplo9.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1678323623.546000
+Z17 !s107 exemplo9.vt|
+Z18 !s90 -work|work|exemplo9.vt|
+!s101 -O0
+R8
+vexemplo9_vlg_sample_tst
+!i10b 1
+!s100 S[1c8=B?U4S;H;l=OK0Gb3
+I348cNhDnD;5FYM7PKY?UD1
+VUVGBUdDPLJT9cl<KBT9ad2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vexemplo9_vlg_vec_tst
+!i10b 1
+!s100 8XBZ7Be^0aE=3ZEdN>>ob0
+ICA5LSgMl67]VcniE_zPTO3
+VXPgN>4O@XcPcd1TDAjBkI2
+R3
+R13
+R14
+R15
+L0 345
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

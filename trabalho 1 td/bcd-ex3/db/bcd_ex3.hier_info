@@ -1,0 +1,29 @@
+|bcd_ex3
+ent[0] => ex3.IN0
+ent[0] => ex3.IN0
+ent[0] => Mux0.IN19
+ent[0] => ex3.IN0
+ent[0] => ex3.IN0
+ent[1] => ex3.IN1
+ent[1] => ex3.IN1
+ent[1] => ex3.IN1
+ent[1] => Mux0.IN18
+ent[1] => ex3.IN1
+ent[2] => ex3.IN1
+ent[2] => ex3.IN0
+ent[2] => Mux0.IN17
+ent[2] => ex3.IN1
+ent[2] => ex3.IN0
+ent[2] => ex3.IN0
+ent[3] => ex3.IN1
+ent[3] => ex3.IN1
+ent[3] => Mux0.IN16
+ent[3] => ex3.IN1
+ent[3] => ex3.IN1
+over <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+ex3[0] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+ex3[1] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+ex3[2] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+ex3[3] <= ex3.DB_MAX_OUTPUT_PORT_TYPE
+
+

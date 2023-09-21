@@ -1,0 +1,8 @@
+|mux02_2x1
+entrada01 => Selector0.IN3
+entrada02 => Selector0.IN4
+desloca => Selector0.IN5
+desloca => Selector0.IN1
+saida <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,738 @@
+TimeQuest Timing Analyzer report for decod_bin_7seg
+Tue Mar 28 19:49:32 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Propagation Delay
+ 13. Minimum Propagation Delay
+ 14. Slow 1200mV 85C Model Metastability Report
+ 15. Slow 1200mV 0C Model Fmax Summary
+ 16. Slow 1200mV 0C Model Setup Summary
+ 17. Slow 1200mV 0C Model Hold Summary
+ 18. Slow 1200mV 0C Model Recovery Summary
+ 19. Slow 1200mV 0C Model Removal Summary
+ 20. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 21. Propagation Delay
+ 22. Minimum Propagation Delay
+ 23. Slow 1200mV 0C Model Metastability Report
+ 24. Fast 1200mV 0C Model Setup Summary
+ 25. Fast 1200mV 0C Model Hold Summary
+ 26. Fast 1200mV 0C Model Recovery Summary
+ 27. Fast 1200mV 0C Model Removal Summary
+ 28. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 29. Propagation Delay
+ 30. Minimum Propagation Delay
+ 31. Fast 1200mV 0C Model Metastability Report
+ 32. Multicorner Timing Analysis Summary
+ 33. Progagation Delay
+ 34. Minimum Progagation Delay
+ 35. Board Trace Model Assignments
+ 36. Input Transition Times
+ 37. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 38. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 39. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 40. Clock Transfers
+ 41. Report TCCS
+ 42. Report RSKM
+ 43. Unconstrained Paths
+ 44. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; decod_bin_7seg                                                    ;
+; Device Family      ; Cyclone IV GX                                                     ;
+; Device Name        ; EP4CGX15BF14C6                                                    ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Enabled                                                           ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------+
+; Propagation Delay                                         ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; entrada[0] ; saida7SEG[0] ; 7.034 ;       ;       ; 7.605 ;
+; entrada[0] ; saida7SEG[1] ; 7.231 ;       ;       ; 7.563 ;
+; entrada[0] ; saida7SEG[2] ; 8.050 ;       ;       ; 8.441 ;
+; entrada[0] ; saida7SEG[3] ; 7.539 ; 7.412 ; 7.998 ; 7.857 ;
+; entrada[0] ; saida7SEG[4] ;       ; 7.338 ; 7.907 ;       ;
+; entrada[0] ; saida7SEG[5] ; 7.533 ;       ;       ; 7.829 ;
+; entrada[0] ; saida7SEG[6] ; 7.525 ; 7.401 ; 7.983 ; 7.825 ;
+; entrada[1] ; saida7SEG[0] ; 6.902 ; 7.034 ; 7.319 ; 7.460 ;
+; entrada[1] ; saida7SEG[1] ; 7.135 ; 6.996 ; 7.561 ; 7.413 ;
+; entrada[1] ; saida7SEG[2] ;       ; 7.872 ; 8.380 ;       ;
+; entrada[1] ; saida7SEG[3] ; 7.440 ; 7.285 ; 7.867 ; 7.703 ;
+; entrada[1] ; saida7SEG[4] ; 7.380 ;       ;       ; 7.669 ;
+; entrada[1] ; saida7SEG[5] ; 7.445 ;       ;       ; 7.725 ;
+; entrada[1] ; saida7SEG[6] ; 7.429 ; 7.277 ; 7.856 ; 7.695 ;
+; entrada[2] ; saida7SEG[0] ; 7.026 ; 7.160 ; 7.478 ; 7.580 ;
+; entrada[2] ; saida7SEG[1] ; 7.262 ; 7.123 ; 7.686 ; 7.577 ;
+; entrada[2] ; saida7SEG[2] ; 8.080 ; 7.997 ; 8.501 ; 8.450 ;
+; entrada[2] ; saida7SEG[3] ; 7.562 ; 7.402 ; 7.984 ; 7.859 ;
+; entrada[2] ; saida7SEG[4] ; 7.498 ; 7.369 ; 7.921 ; 7.823 ;
+; entrada[2] ; saida7SEG[5] ; 7.567 ; 7.427 ; 7.987 ; 7.880 ;
+; entrada[2] ; saida7SEG[6] ; 7.559 ; 7.402 ; 7.981 ; 7.859 ;
+; entrada[3] ; saida7SEG[0] ; 7.208 ; 7.356 ; 7.673 ; 7.770 ;
+; entrada[3] ; saida7SEG[1] ; 7.434 ; 7.298 ; 7.876 ; 7.769 ;
+; entrada[3] ; saida7SEG[2] ; 8.211 ;       ;       ; 8.603 ;
+; entrada[3] ; saida7SEG[3] ; 7.691 ;       ;       ; 8.009 ;
+; entrada[3] ; saida7SEG[4] ; 7.645 ; 7.529 ; 8.085 ; 7.946 ;
+; entrada[3] ; saida7SEG[5] ; 7.711 ; 7.648 ; 8.207 ; 8.031 ;
+; entrada[3] ; saida7SEG[6] ; 7.690 ; 7.636 ; 8.217 ; 8.011 ;
+; entrada[3] ; saida7SEG[7] ;       ; 6.540 ; 6.832 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------+
+; Minimum Propagation Delay                                 ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; entrada[0] ; saida7SEG[0] ; 6.753 ;       ;       ; 7.312 ;
+; entrada[0] ; saida7SEG[1] ; 6.965 ;       ;       ; 7.284 ;
+; entrada[0] ; saida7SEG[2] ; 7.747 ;       ;       ; 8.108 ;
+; entrada[0] ; saida7SEG[3] ; 7.229 ; 7.138 ; 7.707 ; 7.533 ;
+; entrada[0] ; saida7SEG[4] ;       ; 7.065 ; 7.614 ;       ;
+; entrada[0] ; saida7SEG[5] ; 7.280 ;       ;       ; 7.569 ;
+; entrada[0] ; saida7SEG[6] ; 7.215 ; 7.127 ; 7.693 ; 7.522 ;
+; entrada[1] ; saida7SEG[0] ; 6.671 ; 6.802 ; 7.078 ; 7.218 ;
+; entrada[1] ; saida7SEG[1] ; 6.895 ; 6.758 ; 7.311 ; 7.165 ;
+; entrada[1] ; saida7SEG[2] ;       ; 7.634 ; 8.131 ;       ;
+; entrada[1] ; saida7SEG[3] ; 7.192 ; 7.039 ; 7.609 ; 7.447 ;
+; entrada[1] ; saida7SEG[4] ; 7.131 ;       ;       ; 7.410 ;
+; entrada[1] ; saida7SEG[5] ; 7.197 ;       ;       ; 7.468 ;
+; entrada[1] ; saida7SEG[6] ; 7.182 ; 7.032 ; 7.598 ; 7.439 ;
+; entrada[2] ; saida7SEG[0] ; 6.791 ; 6.923 ; 7.232 ; 7.334 ;
+; entrada[2] ; saida7SEG[1] ; 7.017 ; 6.878 ; 7.430 ; 7.323 ;
+; entrada[2] ; saida7SEG[2] ; 7.836 ; 7.755 ; 8.247 ; 8.196 ;
+; entrada[2] ; saida7SEG[3] ; 7.307 ; 7.152 ; 7.721 ; 7.596 ;
+; entrada[2] ; saida7SEG[4] ; 7.245 ; 7.117 ; 7.657 ; 7.558 ;
+; entrada[2] ; saida7SEG[5] ; 7.311 ; 7.176 ; 7.723 ; 7.616 ;
+; entrada[2] ; saida7SEG[6] ; 7.304 ; 7.152 ; 7.718 ; 7.596 ;
+; entrada[3] ; saida7SEG[0] ; 6.966 ; 7.112 ; 7.419 ; 7.516 ;
+; entrada[3] ; saida7SEG[1] ; 7.145 ; 7.035 ; 7.591 ; 7.444 ;
+; entrada[3] ; saida7SEG[2] ; 7.962 ;       ;       ; 8.343 ;
+; entrada[3] ; saida7SEG[3] ; 7.434 ;       ;       ; 7.741 ;
+; entrada[3] ; saida7SEG[4] ; 7.385 ; 7.269 ; 7.816 ; 7.677 ;
+; entrada[3] ; saida7SEG[5] ; 7.436 ; 7.322 ; 7.883 ; 7.742 ;
+; entrada[3] ; saida7SEG[6] ; 7.433 ; 7.377 ; 7.945 ; 7.743 ;
+; entrada[3] ; saida7SEG[7] ;       ; 6.329 ; 6.611 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
+----------------------------------------------
+; Slow 1200mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------+
+; Propagation Delay                                         ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; entrada[0] ; saida7SEG[0] ; 6.180 ;       ;       ; 6.689 ;
+; entrada[0] ; saida7SEG[1] ; 6.371 ;       ;       ; 6.621 ;
+; entrada[0] ; saida7SEG[2] ; 7.075 ;       ;       ; 7.373 ;
+; entrada[0] ; saida7SEG[3] ; 6.682 ; 6.519 ; 7.056 ; 6.879 ;
+; entrada[0] ; saida7SEG[4] ;       ; 6.454 ; 6.958 ;       ;
+; entrada[0] ; saida7SEG[5] ; 6.688 ;       ;       ; 6.856 ;
+; entrada[0] ; saida7SEG[6] ; 6.667 ; 6.509 ; 7.041 ; 6.852 ;
+; entrada[1] ; saida7SEG[0] ; 6.073 ; 6.227 ; 6.401 ; 6.563 ;
+; entrada[1] ; saida7SEG[1] ; 6.296 ; 6.160 ; 6.632 ; 6.488 ;
+; entrada[1] ; saida7SEG[2] ;       ; 6.911 ; 7.336 ;       ;
+; entrada[1] ; saida7SEG[3] ; 6.603 ; 6.414 ; 6.940 ; 6.743 ;
+; entrada[1] ; saida7SEG[4] ; 6.533 ;       ;       ; 6.715 ;
+; entrada[1] ; saida7SEG[5] ; 6.620 ;       ;       ; 6.762 ;
+; entrada[1] ; saida7SEG[6] ; 6.592 ; 6.408 ; 6.929 ; 6.737 ;
+; entrada[2] ; saida7SEG[0] ; 6.182 ; 6.338 ; 6.546 ; 6.672 ;
+; entrada[2] ; saida7SEG[1] ; 6.408 ; 6.272 ; 6.746 ; 6.637 ;
+; entrada[2] ; saida7SEG[2] ; 7.112 ; 7.022 ; 7.445 ; 7.385 ;
+; entrada[2] ; saida7SEG[3] ; 6.710 ; 6.517 ; 7.046 ; 6.884 ;
+; entrada[2] ; saida7SEG[4] ; 6.637 ; 6.490 ; 6.972 ; 6.854 ;
+; entrada[2] ; saida7SEG[5] ; 6.726 ; 6.537 ; 7.059 ; 6.901 ;
+; entrada[2] ; saida7SEG[6] ; 6.708 ; 6.520 ; 7.043 ; 6.886 ;
+; entrada[3] ; saida7SEG[0] ; 6.345 ; 6.515 ; 6.715 ; 6.836 ;
+; entrada[3] ; saida7SEG[1] ; 6.560 ; 6.427 ; 6.909 ; 6.805 ;
+; entrada[3] ; saida7SEG[2] ; 7.228 ;       ;       ; 7.517 ;
+; entrada[3] ; saida7SEG[3] ; 6.826 ;       ;       ; 7.014 ;
+; entrada[3] ; saida7SEG[4] ; 6.769 ; 6.635 ; 7.113 ; 6.959 ;
+; entrada[3] ; saida7SEG[5] ; 6.856 ; 6.737 ; 7.254 ; 7.031 ;
+; entrada[3] ; saida7SEG[6] ; 6.824 ; 6.728 ; 7.249 ; 7.018 ;
+; entrada[3] ; saida7SEG[7] ;       ; 5.771 ; 5.968 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------+
+; Minimum Propagation Delay                                 ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; entrada[0] ; saida7SEG[0] ; 5.931 ;       ;       ; 6.431 ;
+; entrada[0] ; saida7SEG[1] ; 6.132 ;       ;       ; 6.376 ;
+; entrada[0] ; saida7SEG[2] ; 6.804 ;       ;       ; 7.080 ;
+; entrada[0] ; saida7SEG[3] ; 6.403 ; 6.278 ; 6.800 ; 6.596 ;
+; entrada[0] ; saida7SEG[4] ;       ; 6.214 ; 6.696 ;       ;
+; entrada[0] ; saida7SEG[5] ; 6.463 ;       ;       ; 6.626 ;
+; entrada[0] ; saida7SEG[6] ; 6.390 ; 6.268 ; 6.786 ; 6.585 ;
+; entrada[1] ; saida7SEG[0] ; 5.867 ; 6.020 ; 6.190 ; 6.349 ;
+; entrada[1] ; saida7SEG[1] ; 6.081 ; 5.948 ; 6.410 ; 6.271 ;
+; entrada[1] ; saida7SEG[2] ;       ; 6.701 ; 7.115 ;       ;
+; entrada[1] ; saida7SEG[3] ; 6.381 ; 6.196 ; 6.710 ; 6.519 ;
+; entrada[1] ; saida7SEG[4] ; 6.311 ;       ;       ; 6.490 ;
+; entrada[1] ; saida7SEG[5] ; 6.397 ;       ;       ; 6.536 ;
+; entrada[1] ; saida7SEG[6] ; 6.372 ; 6.190 ; 6.701 ; 6.513 ;
+; entrada[2] ; saida7SEG[0] ; 5.973 ; 6.128 ; 6.328 ; 6.455 ;
+; entrada[2] ; saida7SEG[1] ; 6.190 ; 6.055 ; 6.519 ; 6.413 ;
+; entrada[2] ; saida7SEG[2] ; 6.895 ; 6.807 ; 7.222 ; 7.162 ;
+; entrada[2] ; saida7SEG[3] ; 6.483 ; 6.296 ; 6.813 ; 6.653 ;
+; entrada[2] ; saida7SEG[4] ; 6.410 ; 6.266 ; 6.739 ; 6.622 ;
+; entrada[2] ; saida7SEG[5] ; 6.497 ; 6.313 ; 6.826 ; 6.668 ;
+; entrada[2] ; saida7SEG[6] ; 6.481 ; 6.297 ; 6.811 ; 6.654 ;
+; entrada[3] ; saida7SEG[0] ; 6.131 ; 6.298 ; 6.490 ; 6.612 ;
+; entrada[3] ; saida7SEG[1] ; 6.304 ; 6.199 ; 6.656 ; 6.516 ;
+; entrada[3] ; saida7SEG[2] ; 7.007 ;       ;       ; 7.289 ;
+; entrada[3] ; saida7SEG[3] ; 6.596 ;       ;       ; 6.779 ;
+; entrada[3] ; saida7SEG[4] ; 6.538 ; 6.407 ; 6.874 ; 6.723 ;
+; entrada[3] ; saida7SEG[5] ; 6.609 ; 6.450 ; 6.964 ; 6.776 ;
+; entrada[3] ; saida7SEG[6] ; 6.596 ; 6.499 ; 7.009 ; 6.782 ;
+; entrada[3] ; saida7SEG[7] ;       ; 5.584 ; 5.775 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
+---------------------------------------------
+; Slow 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------+
+; Propagation Delay                                         ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; entrada[0] ; saida7SEG[0] ; 4.146 ;       ;       ; 4.720 ;
+; entrada[0] ; saida7SEG[1] ; 4.173 ;       ;       ; 4.754 ;
+; entrada[0] ; saida7SEG[2] ; 4.792 ;       ;       ; 5.391 ;
+; entrada[0] ; saida7SEG[3] ; 4.347 ; 4.380 ; 4.936 ; 4.956 ;
+; entrada[0] ; saida7SEG[4] ;       ; 4.325 ; 4.890 ;       ;
+; entrada[0] ; saida7SEG[5] ; 4.350 ;       ;       ; 4.945 ;
+; entrada[0] ; saida7SEG[6] ; 4.340 ; 4.371 ; 4.927 ; 4.930 ;
+; entrada[1] ; saida7SEG[0] ; 4.072 ; 4.065 ; 4.634 ; 4.634 ;
+; entrada[1] ; saida7SEG[1] ; 4.116 ; 4.112 ; 4.685 ; 4.674 ;
+; entrada[1] ; saida7SEG[2] ;       ; 4.747 ; 5.303 ;       ;
+; entrada[1] ; saida7SEG[3] ; 4.287 ; 4.309 ; 4.856 ; 4.871 ;
+; entrada[1] ; saida7SEG[4] ; 4.260 ;       ;       ; 4.839 ;
+; entrada[1] ; saida7SEG[5] ; 4.297 ;       ;       ; 4.890 ;
+; entrada[1] ; saida7SEG[6] ; 4.282 ; 4.302 ; 4.851 ; 4.864 ;
+; entrada[2] ; saida7SEG[0] ; 4.145 ; 4.141 ; 4.728 ; 4.705 ;
+; entrada[2] ; saida7SEG[1] ; 4.194 ; 4.187 ; 4.759 ; 4.770 ;
+; entrada[2] ; saida7SEG[2] ; 4.811 ; 4.821 ; 5.374 ; 5.403 ;
+; entrada[2] ; saida7SEG[3] ; 4.358 ; 4.376 ; 4.923 ; 4.960 ;
+; entrada[2] ; saida7SEG[4] ; 4.330 ; 4.344 ; 4.893 ; 4.926 ;
+; entrada[2] ; saida7SEG[5] ; 4.368 ; 4.395 ; 4.931 ; 4.977 ;
+; entrada[2] ; saida7SEG[6] ; 4.362 ; 4.378 ; 4.926 ; 4.961 ;
+; entrada[3] ; saida7SEG[0] ; 4.252 ; 4.258 ; 4.844 ; 4.828 ;
+; entrada[3] ; saida7SEG[1] ; 4.298 ; 4.290 ; 4.882 ; 4.887 ;
+; entrada[3] ; saida7SEG[2] ; 4.892 ;       ;       ; 5.500 ;
+; entrada[3] ; saida7SEG[3] ; 4.439 ;       ;       ; 5.055 ;
+; entrada[3] ; saida7SEG[4] ; 4.417 ; 4.435 ; 4.999 ; 5.005 ;
+; entrada[3] ; saida7SEG[5] ; 4.454 ; 4.524 ; 5.072 ; 5.072 ;
+; entrada[3] ; saida7SEG[6] ; 4.444 ; 4.514 ; 5.076 ; 5.058 ;
+; entrada[3] ; saida7SEG[7] ;       ; 3.823 ; 4.365 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------+
+; Minimum Propagation Delay                                 ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; entrada[0] ; saida7SEG[0] ; 3.979 ;       ;       ; 4.546 ;
+; entrada[0] ; saida7SEG[1] ; 4.016 ;       ;       ; 4.588 ;
+; entrada[0] ; saida7SEG[2] ; 4.615 ;       ;       ; 5.192 ;
+; entrada[0] ; saida7SEG[3] ; 4.166 ; 4.215 ; 4.761 ; 4.767 ;
+; entrada[0] ; saida7SEG[4] ;       ; 4.162 ; 4.711 ;       ;
+; entrada[0] ; saida7SEG[5] ; 4.202 ;       ;       ; 4.788 ;
+; entrada[0] ; saida7SEG[6] ; 4.159 ; 4.206 ; 4.752 ; 4.756 ;
+; entrada[1] ; saida7SEG[0] ; 3.935 ; 3.927 ; 4.490 ; 4.489 ;
+; entrada[1] ; saida7SEG[1] ; 3.973 ; 3.969 ; 4.535 ; 4.524 ;
+; entrada[1] ; saida7SEG[2] ;       ; 4.605 ; 5.154 ;       ;
+; entrada[1] ; saida7SEG[3] ; 4.140 ; 4.162 ; 4.702 ; 4.717 ;
+; entrada[1] ; saida7SEG[4] ; 4.112 ;       ;       ; 4.684 ;
+; entrada[1] ; saida7SEG[5] ; 4.150 ;       ;       ; 4.735 ;
+; entrada[1] ; saida7SEG[6] ; 4.136 ; 4.156 ; 4.698 ; 4.711 ;
+; entrada[2] ; saida7SEG[0] ; 4.005 ; 4.001 ; 4.580 ; 4.557 ;
+; entrada[2] ; saida7SEG[1] ; 4.050 ; 4.041 ; 4.606 ; 4.617 ;
+; entrada[2] ; saida7SEG[2] ; 4.667 ; 4.676 ; 5.223 ; 5.251 ;
+; entrada[2] ; saida7SEG[3] ; 4.210 ; 4.227 ; 4.767 ; 4.803 ;
+; entrada[2] ; saida7SEG[4] ; 4.180 ; 4.192 ; 4.736 ; 4.767 ;
+; entrada[2] ; saida7SEG[5] ; 4.218 ; 4.244 ; 4.774 ; 4.819 ;
+; entrada[2] ; saida7SEG[6] ; 4.213 ; 4.228 ; 4.770 ; 4.804 ;
+; entrada[3] ; saida7SEG[0] ; 4.108 ; 4.114 ; 4.692 ; 4.676 ;
+; entrada[3] ; saida7SEG[1] ; 4.129 ; 4.132 ; 4.710 ; 4.695 ;
+; entrada[3] ; saida7SEG[2] ; 4.745 ;       ;       ; 5.343 ;
+; entrada[3] ; saida7SEG[3] ; 4.287 ;       ;       ; 4.894 ;
+; entrada[3] ; saida7SEG[4] ; 4.264 ; 4.280 ; 4.838 ; 4.843 ;
+; entrada[3] ; saida7SEG[5] ; 4.294 ; 4.330 ; 4.878 ; 4.897 ;
+; entrada[3] ; saida7SEG[6] ; 4.292 ; 4.358 ; 4.914 ; 4.897 ;
+; entrada[3] ; saida7SEG[7] ;       ; 3.695 ; 4.231 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
+---------------------------------------------
+; Fast 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-----------------------------------------------------------+
+; Progagation Delay                                         ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; entrada[0] ; saida7SEG[0] ; 7.034 ;       ;       ; 7.605 ;
+; entrada[0] ; saida7SEG[1] ; 7.231 ;       ;       ; 7.563 ;
+; entrada[0] ; saida7SEG[2] ; 8.050 ;       ;       ; 8.441 ;
+; entrada[0] ; saida7SEG[3] ; 7.539 ; 7.412 ; 7.998 ; 7.857 ;
+; entrada[0] ; saida7SEG[4] ;       ; 7.338 ; 7.907 ;       ;
+; entrada[0] ; saida7SEG[5] ; 7.533 ;       ;       ; 7.829 ;
+; entrada[0] ; saida7SEG[6] ; 7.525 ; 7.401 ; 7.983 ; 7.825 ;
+; entrada[1] ; saida7SEG[0] ; 6.902 ; 7.034 ; 7.319 ; 7.460 ;
+; entrada[1] ; saida7SEG[1] ; 7.135 ; 6.996 ; 7.561 ; 7.413 ;
+; entrada[1] ; saida7SEG[2] ;       ; 7.872 ; 8.380 ;       ;
+; entrada[1] ; saida7SEG[3] ; 7.440 ; 7.285 ; 7.867 ; 7.703 ;
+; entrada[1] ; saida7SEG[4] ; 7.380 ;       ;       ; 7.669 ;
+; entrada[1] ; saida7SEG[5] ; 7.445 ;       ;       ; 7.725 ;
+; entrada[1] ; saida7SEG[6] ; 7.429 ; 7.277 ; 7.856 ; 7.695 ;
+; entrada[2] ; saida7SEG[0] ; 7.026 ; 7.160 ; 7.478 ; 7.580 ;
+; entrada[2] ; saida7SEG[1] ; 7.262 ; 7.123 ; 7.686 ; 7.577 ;
+; entrada[2] ; saida7SEG[2] ; 8.080 ; 7.997 ; 8.501 ; 8.450 ;
+; entrada[2] ; saida7SEG[3] ; 7.562 ; 7.402 ; 7.984 ; 7.859 ;
+; entrada[2] ; saida7SEG[4] ; 7.498 ; 7.369 ; 7.921 ; 7.823 ;
+; entrada[2] ; saida7SEG[5] ; 7.567 ; 7.427 ; 7.987 ; 7.880 ;
+; entrada[2] ; saida7SEG[6] ; 7.559 ; 7.402 ; 7.981 ; 7.859 ;
+; entrada[3] ; saida7SEG[0] ; 7.208 ; 7.356 ; 7.673 ; 7.770 ;
+; entrada[3] ; saida7SEG[1] ; 7.434 ; 7.298 ; 7.876 ; 7.769 ;
+; entrada[3] ; saida7SEG[2] ; 8.211 ;       ;       ; 8.603 ;
+; entrada[3] ; saida7SEG[3] ; 7.691 ;       ;       ; 8.009 ;
+; entrada[3] ; saida7SEG[4] ; 7.645 ; 7.529 ; 8.085 ; 7.946 ;
+; entrada[3] ; saida7SEG[5] ; 7.711 ; 7.648 ; 8.207 ; 8.031 ;
+; entrada[3] ; saida7SEG[6] ; 7.690 ; 7.636 ; 8.217 ; 8.011 ;
+; entrada[3] ; saida7SEG[7] ;       ; 6.540 ; 6.832 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------+
+; Minimum Progagation Delay                                 ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; entrada[0] ; saida7SEG[0] ; 3.979 ;       ;       ; 4.546 ;
+; entrada[0] ; saida7SEG[1] ; 4.016 ;       ;       ; 4.588 ;
+; entrada[0] ; saida7SEG[2] ; 4.615 ;       ;       ; 5.192 ;
+; entrada[0] ; saida7SEG[3] ; 4.166 ; 4.215 ; 4.761 ; 4.767 ;
+; entrada[0] ; saida7SEG[4] ;       ; 4.162 ; 4.711 ;       ;
+; entrada[0] ; saida7SEG[5] ; 4.202 ;       ;       ; 4.788 ;
+; entrada[0] ; saida7SEG[6] ; 4.159 ; 4.206 ; 4.752 ; 4.756 ;
+; entrada[1] ; saida7SEG[0] ; 3.935 ; 3.927 ; 4.490 ; 4.489 ;
+; entrada[1] ; saida7SEG[1] ; 3.973 ; 3.969 ; 4.535 ; 4.524 ;
+; entrada[1] ; saida7SEG[2] ;       ; 4.605 ; 5.154 ;       ;
+; entrada[1] ; saida7SEG[3] ; 4.140 ; 4.162 ; 4.702 ; 4.717 ;
+; entrada[1] ; saida7SEG[4] ; 4.112 ;       ;       ; 4.684 ;
+; entrada[1] ; saida7SEG[5] ; 4.150 ;       ;       ; 4.735 ;
+; entrada[1] ; saida7SEG[6] ; 4.136 ; 4.156 ; 4.698 ; 4.711 ;
+; entrada[2] ; saida7SEG[0] ; 4.005 ; 4.001 ; 4.580 ; 4.557 ;
+; entrada[2] ; saida7SEG[1] ; 4.050 ; 4.041 ; 4.606 ; 4.617 ;
+; entrada[2] ; saida7SEG[2] ; 4.667 ; 4.676 ; 5.223 ; 5.251 ;
+; entrada[2] ; saida7SEG[3] ; 4.210 ; 4.227 ; 4.767 ; 4.803 ;
+; entrada[2] ; saida7SEG[4] ; 4.180 ; 4.192 ; 4.736 ; 4.767 ;
+; entrada[2] ; saida7SEG[5] ; 4.218 ; 4.244 ; 4.774 ; 4.819 ;
+; entrada[2] ; saida7SEG[6] ; 4.213 ; 4.228 ; 4.770 ; 4.804 ;
+; entrada[3] ; saida7SEG[0] ; 4.108 ; 4.114 ; 4.692 ; 4.676 ;
+; entrada[3] ; saida7SEG[1] ; 4.129 ; 4.132 ; 4.710 ; 4.695 ;
+; entrada[3] ; saida7SEG[2] ; 4.745 ;       ;       ; 5.343 ;
+; entrada[3] ; saida7SEG[3] ; 4.287 ;       ;       ; 4.894 ;
+; entrada[3] ; saida7SEG[4] ; 4.264 ; 4.280 ; 4.838 ; 4.843 ;
+; entrada[3] ; saida7SEG[5] ; 4.294 ; 4.330 ; 4.878 ; 4.897 ;
+; entrada[3] ; saida7SEG[6] ; 4.292 ; 4.358 ; 4.914 ; 4.897 ;
+; entrada[3] ; saida7SEG[7] ;       ; 3.695 ; 4.231 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                    ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; saida7SEG[0]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[1]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[2]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[3]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[4]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[5]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[6]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[7]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[8]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[9]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[10] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[11] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[12] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; saida7SEG[13] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++-------------------------------------------------------------------+
+; Input Transition Times                                            ;
++----------------+--------------+-----------------+-----------------+
+; Pin            ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++----------------+--------------+-----------------+-----------------+
+; entrada[0]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[1]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[2]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[3]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO~  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_NCSO~  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++----------------+--------------+-----------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; saida7SEG[0]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[1]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00339 V          ; 0.206 V                              ; 0.007 V                              ; 2.77e-10 s                  ; 3.24e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00339 V         ; 0.206 V                             ; 0.007 V                             ; 2.77e-10 s                 ; 3.24e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[2]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.34 V              ; -0.00668 V          ; 0.218 V                              ; 0.076 V                              ; 1.92e-09 s                  ; 1.81e-09 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.34 V             ; -0.00668 V         ; 0.218 V                             ; 0.076 V                             ; 1.92e-09 s                 ; 1.81e-09 s                 ; No                        ; Yes                       ;
+; saida7SEG[3]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[4]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00339 V          ; 0.206 V                              ; 0.007 V                              ; 2.77e-10 s                  ; 3.24e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00339 V         ; 0.206 V                             ; 0.007 V                             ; 2.77e-10 s                 ; 3.24e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[5]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[6]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[7]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[8]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.16e-09 V                   ; 2.37 V              ; -0.00861 V          ; 0.168 V                              ; 0.038 V                              ; 6.79e-10 s                  ; 6.49e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 5.16e-09 V                  ; 2.37 V             ; -0.00861 V         ; 0.168 V                             ; 0.038 V                             ; 6.79e-10 s                 ; 6.49e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[9]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00339 V          ; 0.206 V                              ; 0.007 V                              ; 2.77e-10 s                  ; 3.24e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00339 V         ; 0.206 V                             ; 0.007 V                             ; 2.77e-10 s                 ; 3.24e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[10] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00339 V          ; 0.206 V                              ; 0.007 V                              ; 2.77e-10 s                  ; 3.24e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00339 V         ; 0.206 V                             ; 0.007 V                             ; 2.77e-10 s                 ; 3.24e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[11] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.16e-09 V                   ; 2.37 V              ; -0.00861 V          ; 0.168 V                              ; 0.038 V                              ; 6.79e-10 s                  ; 6.49e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 5.16e-09 V                  ; 2.37 V             ; -0.00861 V         ; 0.168 V                             ; 0.038 V                             ; 6.79e-10 s                 ; 6.49e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[12] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00339 V          ; 0.206 V                              ; 0.007 V                              ; 2.77e-10 s                  ; 3.24e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00339 V         ; 0.206 V                             ; 0.007 V                             ; 2.77e-10 s                 ; 3.24e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[13] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.76e-09 V                   ; 2.4 V               ; -0.034 V            ; 0.102 V                              ; 0.065 V                              ; 2.49e-10 s                  ; 3.49e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 4.76e-09 V                  ; 2.4 V              ; -0.034 V           ; 0.102 V                             ; 0.065 V                             ; 2.49e-10 s                 ; 3.49e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.94e-09 V                   ; 2.39 V              ; -0.0344 V           ; 0.156 V                              ; 0.089 V                              ; 2.68e-10 s                  ; 2.6e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 5.94e-09 V                  ; 2.39 V             ; -0.0344 V          ; 0.156 V                             ; 0.089 V                             ; 2.68e-10 s                 ; 2.6e-10 s                  ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; saida7SEG[0]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[1]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.37 V              ; -0.00606 V          ; 0.107 V                              ; 0.021 V                              ; 4.26e-10 s                  ; 4.03e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.37 V             ; -0.00606 V         ; 0.107 V                             ; 0.021 V                             ; 4.26e-10 s                 ; 4.03e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[2]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.33 V              ; -0.00286 V          ; 0.193 V                              ; 0.042 V                              ; 2.32e-09 s                  ; 2.21e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.33 V             ; -0.00286 V         ; 0.193 V                             ; 0.042 V                             ; 2.32e-09 s                 ; 2.21e-09 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[3]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[4]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.37 V              ; -0.00606 V          ; 0.107 V                              ; 0.021 V                              ; 4.26e-10 s                  ; 4.03e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.37 V             ; -0.00606 V         ; 0.107 V                             ; 0.021 V                             ; 4.26e-10 s                 ; 4.03e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[5]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[6]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[7]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[8]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 8.13e-07 V                   ; 2.35 V              ; -0.00662 V          ; 0.129 V                              ; 0.049 V                              ; 8.55e-10 s                  ; 8.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 8.13e-07 V                  ; 2.35 V             ; -0.00662 V         ; 0.129 V                             ; 0.049 V                             ; 8.55e-10 s                 ; 8.01e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[9]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.37 V              ; -0.00606 V          ; 0.107 V                              ; 0.021 V                              ; 4.26e-10 s                  ; 4.03e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.37 V             ; -0.00606 V         ; 0.107 V                             ; 0.021 V                             ; 4.26e-10 s                 ; 4.03e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[10] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.37 V              ; -0.00606 V          ; 0.107 V                              ; 0.021 V                              ; 4.26e-10 s                  ; 4.03e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.37 V             ; -0.00606 V         ; 0.107 V                             ; 0.021 V                             ; 4.26e-10 s                 ; 4.03e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[11] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 8.13e-07 V                   ; 2.35 V              ; -0.00662 V          ; 0.129 V                              ; 0.049 V                              ; 8.55e-10 s                  ; 8.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 8.13e-07 V                  ; 2.35 V             ; -0.00662 V         ; 0.129 V                             ; 0.049 V                             ; 8.55e-10 s                 ; 8.01e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[12] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.37 V              ; -0.00606 V          ; 0.107 V                              ; 0.021 V                              ; 4.26e-10 s                  ; 4.03e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.37 V             ; -0.00606 V         ; 0.107 V                             ; 0.021 V                             ; 4.26e-10 s                 ; 4.03e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[13] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.93e-07 V                   ; 2.37 V              ; -0.0278 V           ; 0.106 V                              ; 0.115 V                              ; 2.69e-10 s                  ; 4.05e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.93e-07 V                  ; 2.37 V             ; -0.0278 V          ; 0.106 V                             ; 0.115 V                             ; 2.69e-10 s                 ; 4.05e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.76e-07 V                   ; 2.36 V              ; -0.00439 V          ; 0.088 V                              ; 0.007 V                              ; 4.05e-10 s                  ; 3.35e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 9.76e-07 V                  ; 2.36 V             ; -0.00439 V         ; 0.088 V                             ; 0.007 V                             ; 4.05e-10 s                 ; 3.35e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; saida7SEG[0]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[1]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.73 V              ; -0.0205 V           ; 0.17 V                               ; 0.027 V                              ; 2.58e-10 s                  ; 2.57e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.73 V             ; -0.0205 V          ; 0.17 V                              ; 0.027 V                             ; 2.58e-10 s                 ; 2.57e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[2]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.65 V              ; -0.0115 V           ; 0.219 V                              ; 0.115 V                              ; 1.64e-09 s                  ; 1.57e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.65 V             ; -0.0115 V          ; 0.219 V                             ; 0.115 V                             ; 1.64e-09 s                 ; 1.57e-09 s                 ; No                        ; Yes                       ;
+; saida7SEG[3]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[4]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.73 V              ; -0.0205 V           ; 0.17 V                               ; 0.027 V                              ; 2.58e-10 s                  ; 2.57e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.73 V             ; -0.0205 V          ; 0.17 V                              ; 0.027 V                             ; 2.58e-10 s                 ; 2.57e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[5]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[6]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[7]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[8]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.16e-08 V                   ; 2.71 V              ; -0.0171 V           ; 0.273 V                              ; 0.065 V                              ; 4.95e-10 s                  ; 5.37e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.16e-08 V                  ; 2.71 V             ; -0.0171 V          ; 0.273 V                             ; 0.065 V                             ; 4.95e-10 s                 ; 5.37e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[9]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.73 V              ; -0.0205 V           ; 0.17 V                               ; 0.027 V                              ; 2.58e-10 s                  ; 2.57e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.73 V             ; -0.0205 V          ; 0.17 V                              ; 0.027 V                             ; 2.58e-10 s                 ; 2.57e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[10] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.73 V              ; -0.0205 V           ; 0.17 V                               ; 0.027 V                              ; 2.58e-10 s                  ; 2.57e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.73 V             ; -0.0205 V          ; 0.17 V                              ; 0.027 V                             ; 2.58e-10 s                 ; 2.57e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[11] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.16e-08 V                   ; 2.71 V              ; -0.0171 V           ; 0.273 V                              ; 0.065 V                              ; 4.95e-10 s                  ; 5.37e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.16e-08 V                  ; 2.71 V             ; -0.0171 V          ; 0.273 V                             ; 0.065 V                             ; 4.95e-10 s                 ; 5.37e-10 s                 ; No                        ; Yes                       ;
+; saida7SEG[12] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.73 V              ; -0.0205 V           ; 0.17 V                               ; 0.027 V                              ; 2.58e-10 s                  ; 2.57e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.73 V             ; -0.0205 V          ; 0.17 V                              ; 0.027 V                             ; 2.58e-10 s                 ; 2.57e-10 s                 ; Yes                       ; Yes                       ;
+; saida7SEG[13] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.06e-08 V                   ; 2.86 V              ; -0.0341 V           ; 0.364 V                              ; 0.046 V                              ; 1.17e-10 s                  ; 2.6e-10 s                   ; No                         ; Yes                        ; 2.62 V                      ; 3.06e-08 V                  ; 2.86 V             ; -0.0341 V          ; 0.364 V                             ; 0.046 V                             ; 1.17e-10 s                 ; 2.6e-10 s                  ; No                        ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.81e-08 V                   ; 2.72 V              ; -0.0542 V           ; 0.144 V                              ; 0.087 V                              ; 2.55e-10 s                  ; 2.14e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 3.81e-08 V                  ; 2.72 V             ; -0.0542 V          ; 0.144 V                             ; 0.087 V                             ; 2.55e-10 s                 ; 2.14e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 4     ; 4    ;
+; Unconstrained Input Port Paths  ; 29    ; 29   ;
+; Unconstrained Output Ports      ; 8     ; 8    ;
+; Unconstrained Output Port Paths ; 29    ; 29   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Tue Mar 28 19:49:29 2023
+Info: Command: quartus_sta decod_bin_7seg -c decod_bin_7seg
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'decod_bin_7seg.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow 1200mV 85C Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1200mV 0C Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4595 megabytes
+    Info: Processing ended: Tue Mar 28 19:49:32 2023
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:01
+
+

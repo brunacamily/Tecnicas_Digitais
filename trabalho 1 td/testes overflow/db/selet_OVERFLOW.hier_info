@@ -1,0 +1,24 @@
+|selet_OVERFLOW
+over01 => Mux0.IN0
+over02 => Mux0.IN1
+over03 => Mux0.IN2
+over04 => Mux0.IN3
+over05 => Mux0.IN4
+over06 => Mux0.IN5
+over07 => Mux0.IN6
+over08 => Mux0.IN7
+over09 => Mux0.IN8
+over10 => Mux0.IN9
+over11 => Mux0.IN10
+over12 => Mux0.IN11
+over13 => Mux0.IN12
+over14 => Mux0.IN13
+over15 => Mux0.IN14
+over16 => Mux0.IN15
+sinal[0] => Mux0.IN19
+sinal[1] => Mux0.IN18
+sinal[2] => Mux0.IN17
+sinal[3] => Mux0.IN16
+saidaOVER <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

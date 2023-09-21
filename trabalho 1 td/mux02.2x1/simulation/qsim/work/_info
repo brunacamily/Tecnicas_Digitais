@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\mux02.2x1\simulation\qsim
+vmux02_2x1
+Z1 !s100 ]K9=U>=P_@@S6U1R[]CKm3
+Z2 Iz8?@hQ0c][iT<eSiPKSDO3
+Z3 V<ViL;Yeffa:<9Z[ocmP[Z2
+Z4 dC:\Users\bruna\OneDrive\Área de Trabalho\trabalho td\mux02.2x1\simulation\qsim
+Z5 w1679595349
+Z6 8mux02_2x1.vo
+Z7 Fmux02_2x1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|mux02_2x1.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1679595350.735000
+Z12 !s107 mux02_2x1.vo|
+!s101 -O0
+vmux02_2x1_vlg_check_tst
+!i10b 1
+Z13 !s100 ;^Z[=O=T]iFRh=AQ<`60X3
+Z14 Ia=dh]dHQ^eonmifRZ=oaQ2
+Z15 V0KdKI2ObYdMcS0:oB]]Nz0
+R4
+Z16 w1679595348
+Z17 8mux02_2x1.vt
+Z18 Fmux02_2x1.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1679595350.847000
+Z20 !s107 mux02_2x1.vt|
+Z21 !s90 -work|work|mux02_2x1.vt|
+!s101 -O0
+R10
+vmux02_2x1_vlg_sample_tst
+!i10b 1
+Z22 !s100 9@JCjlYg>iJl0HC=PE5DA0
+Z23 I9jQ;b1BJc4?6]SMDcYOXj2
+Z24 V;o4L]zXfPf5AcF<DJ3]a@2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vmux02_2x1_vlg_vec_tst
+!i10b 1
+!s100 <S]58zIj8fEk8b5YFH7LZ1
+IXSC98f@cLF>:Lk=Rci`o?1
+Z25 Vm06QHD@bjbKIG?`CE[M6i1
+R4
+R16
+R17
+R18
+Z26 L0 156
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

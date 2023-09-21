@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bruna\OneDrive\Área de Trabalho\Técnicas Digitais\exercicios e exemplos aula 10\contador_assincrono\simulation\qsim
+vflip_flop_D
+Z1 IBYidf>B[2K1Qg6PPN6e<P3
+Z2 VjY9C1?@Z8eebJRm:^2W1T1
+Z3 dC:\Users\bruna\OneDrive\Área de Trabalho\Técnicas Digitais\exercicios e exemplos aula 10\contador_assincrono\simulation\qsim
+Z4 w1682116293
+Z5 8flip_flop_D.vo
+Z6 Fflip_flop_D.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nflip_flop_@d
+!i10b 1
+Z10 !s100 `MU7O27@eLOlbNk;QCJDe1
+!s85 0
+Z11 !s108 1682116295.725000
+Z12 !s107 flip_flop_D.vo|
+Z13 !s90 -work|work|flip_flop_D.vo|
+!s101 -O0
+vflip_flop_D_vlg_check_tst
+!i10b 1
+!s100 H;93zeE^I]hiG0nh@lJ=K3
+IBQZWKL>?h5bLXS]k8;[7h3
+VMIQzc8dn0aI>k5[YNVedg3
+R3
+Z14 w1682116292
+Z15 8flip_flop_D.vt
+Z16 Fflip_flop_D.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1682116295.862000
+Z18 !s107 flip_flop_D.vt|
+Z19 !s90 -work|work|flip_flop_D.vt|
+!s101 -O0
+R8
+nflip_flop_@d_vlg_check_tst
+vflip_flop_D_vlg_sample_tst
+!i10b 1
+!s100 l>ELU<3RR4_[A7>b?Z3QF2
+I=<0=@Y;HfVS4MYdRPoJkI0
+Vi0Xo:SgbTYi>30j=XTJO80
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nflip_flop_@d_vlg_sample_tst
+vflip_flop_D_vlg_vec_tst
+!i10b 1
+!s100 ja<^9BdVb^4O?;P<Kn=`h0
+IU:[QIid[F:P5jRY^jMm<L0
+VFF]_5NjVDNe<AoOn97a=U2
+R3
+R14
+R15
+R16
+L0 183
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nflip_flop_@d_vlg_vec_tst

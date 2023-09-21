@@ -1,0 +1,16 @@
+|exemplo8
+a => s.IN0
+b => s.IN1
+c => s.IN0
+d => s.IN1
+sel[0] => s.IN1
+sel[0] => s.IN0
+sel[0] => s.IN1
+sel[0] => s.IN0
+sel[1] => s.IN1
+sel[1] => s.IN1
+sel[1] => s.IN1
+sel[1] => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
