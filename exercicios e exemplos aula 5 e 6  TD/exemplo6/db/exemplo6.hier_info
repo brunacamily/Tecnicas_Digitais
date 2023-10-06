@@ -1,7 +1,0 @@
-|exemplo6
-bus_1[0] => bus_2[0].DATAIN
-bus_1[1] => bus_2[1].DATAIN
-bus_2[0] <= bus_1[0].DB_MAX_OUTPUT_PORT_TYPE
-bus_2[1] <= bus_1[1].DB_MAX_OUTPUT_PORT_TYPE
-
-
