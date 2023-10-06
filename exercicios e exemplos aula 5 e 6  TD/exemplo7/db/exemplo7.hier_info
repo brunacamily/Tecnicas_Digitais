@@ -1,7 +1,0 @@
-|exemplo7
-vetor[0] => ~NO_FANOUT~
-vetor[1] => ~NO_FANOUT~
-vetor[2] => s.DATAIN
-s <= vetor[2].DB_MAX_OUTPUT_PORT_TYPE
-
-
