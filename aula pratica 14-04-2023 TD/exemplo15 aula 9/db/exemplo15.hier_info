@@ -1,8 +1,0 @@
-|exemplo15
-clear => q_temp.ACLR
-d => q_temp.DATAIN
-load => q_temp.ENA
-clock => q_temp.CLK
-q <= q_temp.DB_MAX_OUTPUT_PORT_TYPE
-
-
