@@ -1,6 +1,0 @@
-|xorSIMPLES
-entrada01 => Sout.IN0
-entrada02 => Sout.IN1
-Sout <= Sout.DB_MAX_OUTPUT_PORT_TYPE
-
-
